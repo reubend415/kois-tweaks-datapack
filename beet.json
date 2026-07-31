@@ -6,5 +6,9 @@
         "load": ["src"]
     },
 
+    "resource_pack": {
+        "load": ["src"]
+    },
+
     "output": "build"
 }
