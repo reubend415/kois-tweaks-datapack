@@ -1,6 +1,6 @@
 {
-    "name": "My First Pack",
-    "description": "Learning beet!",
+    "name": "Kois Tweaks",
+    "description": "My vanilla tweaks for 26.2",
 
     "data_pack": {
         "load": ["src"]
