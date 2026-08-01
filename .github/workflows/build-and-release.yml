@@ -1,4 +1,4 @@
-name: Release Beet project
+name: Release Beet Project
 
 on:
   push:
@@ -36,6 +36,12 @@ jobs:
           name=$(basename "$dir")
           (cd "$dir" && zip -r "${GITHUB_WORKSPACE}/${name}.zip" .)
         done
+      
+    
+    - name: Weld merge packs
+      run: |
+        pip install smithed
+        weld $GITHUB_WORKSPACE/*pack.zip
           
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
