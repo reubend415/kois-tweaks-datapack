@@ -40,8 +40,13 @@ jobs:
     
     - name: Weld merge packs
       run: |
+        python -m venv .weld-env
+        source .weld-env/bin/activate
+
+        pip install --upgrade pip
         pip install smithed
-        weld $GITHUB_WORKSPACE/*pack.zip
+
+        weld $GITHUB_WORKSPACE/*_pack.zip
           
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
