@@ -1,5 +1,5 @@
 [project]
-name = "beet-datapack-test"
+name = "kois_tweaks"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-beet-datapack-test = "beet_datapack_test:main"
+kois_tweaks = "kois_tweaks:main"
 
 [build-system]
 requires = ["uv_build>=0.12.0,<0.13.0"]

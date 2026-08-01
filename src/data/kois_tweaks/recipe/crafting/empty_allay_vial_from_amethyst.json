@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:amethyst_shard"
+  },
+  "pattern": [
+    "# #",
+    " # "
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "kois_tweaks:empty_allay_vial",
+      "minecraft:item_name": "Allay Vial"
+    },
+    "count": 1,
+    "id": "minecraft:glass_bottle"
+  }
+}

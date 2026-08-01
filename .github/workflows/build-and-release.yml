@@ -37,16 +37,6 @@ jobs:
           (cd "$dir" && zip -r "${GITHUB_WORKSPACE}/${name}.zip" .)
         done
       
-    
-    - name: Weld merge packs
-      run: |
-        python -m venv .weld-env
-        unset PYTHONPATH
-        source .weld-env/bin/activate
-        pip install --upgrade pip
-        pip install smithed
-
-        weld $GITHUB_WORKSPACE/*_pack.zip
           
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
