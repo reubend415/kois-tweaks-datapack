@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "kois_tweaks:item/empty_allay_vial"
-  }
-}
