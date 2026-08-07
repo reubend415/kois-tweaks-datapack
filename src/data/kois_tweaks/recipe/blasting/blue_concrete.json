@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.3,
+  "group": "concrete",
+  "ingredient": "minecraft:blue_concrete_powder",
+  "result": {
+    "id": "minecraft:blue_concrete"
+  }
+}
