@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:sulfur"
+    "minecraft:bricks"
   ],
   "result": {
-    "count": 9,
-    "id": "minecraft:gunpowder"
+    "count": 1,
+    "id": "minecraft:brick"
   }
 }
