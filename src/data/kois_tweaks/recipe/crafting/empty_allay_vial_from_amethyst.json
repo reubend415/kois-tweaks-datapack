@@ -10,7 +10,7 @@
   "result": {
     "components": {
       "minecraft:item_model": "kois_tweaks:empty_allay_vial",
-      "minecraft:item_name": "Allay Vial"
+      "minecraft:item_name": "Empty Allay Vial"
     },
     "count": 1,
     "id": "minecraft:glass_bottle"
