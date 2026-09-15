@@ -11,3 +11,6 @@ wheels/
 
 # Utils
 utils
+
+# MacOS
+.DS_Store
