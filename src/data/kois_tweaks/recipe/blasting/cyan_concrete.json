@@ -5,5 +5,6 @@
   "ingredient": "minecraft:cyan_concrete_powder",
   "result": {
     "id": "minecraft:cyan_concrete"
-  }
+  },
+  "cookingtime": 200
 }

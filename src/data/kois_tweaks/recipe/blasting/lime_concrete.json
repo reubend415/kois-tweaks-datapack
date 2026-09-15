@@ -5,5 +5,6 @@
   "ingredient": "minecraft:lime_concrete_powder",
   "result": {
     "id": "minecraft:lime_concrete"
-  }
+  },
+  "cookingtime": 200
 }

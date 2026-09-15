@@ -5,5 +5,6 @@
   "ingredient": "minecraft:pink_concrete_powder",
   "result": {
     "id": "minecraft:pink_concrete"
-  }
+  },
+  "cookingtime": 200
 }

@@ -5,5 +5,6 @@
   "ingredient": "minecraft:brown_concrete_powder",
   "result": {
     "id": "minecraft:brown_concrete"
-  }
+  },
+  "cookingtime": 200
 }

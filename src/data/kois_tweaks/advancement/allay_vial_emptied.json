@@ -3,17 +3,15 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:allay_spawn_egg",
-              "components": {
-                "minecraft:item_model": "kois_tweaks:full_allay_vial"
-              }
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:allay_spawn_egg",
+            "components": {
+              "minecraft:item_model": "kois_tweaks:full_allay_vial"
             }
           }
-        ]
+        }
       }
     }
   },

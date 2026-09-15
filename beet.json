@@ -1,13 +1,17 @@
 {
     "name": "Kois Tweaks",
-    "description": "My vanilla tweaks for 26.2",
+    "description": "My vanilla tweaks for 26.3",
 
     "data_pack": {
-        "load": ["src"]
+        "load": ["src"],
+        "min_format": [121, 0],
+        "max_format": [121, 0]
     },
 
     "resource_pack": {
-        "load": ["src"]
+        "load": ["src"],
+        "min_format": [97, 1],
+        "max_format": [97, 1]
     },
 
     "output": "build"
