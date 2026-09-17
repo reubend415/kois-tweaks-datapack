@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": [
+      "minecraft:potion"
+    ],
+    "potion_contents": {
+      "potions": "minecraft:thick",
+      "effects": {
+        "contains": [
+          {
+            "minecraft:haste": {
+              "amplifier": 0,
+              "duration": 9600
+            }
+          }
+        ]
+      }
+    }
+  },
+  "reagent": {
+    "item": [
+      "minecraft:glowstone_dust"
+    ]
+  },
+  "output": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 16767095,
+        "custom_effects": [
+          {
+            "id": "minecraft:haste",
+            "amplifier": 1,
+            "duration": 9600
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Potion of Haste",
+        "italic": false
+      },
+      "minecraft:max_stack_size": 16
+    }
+  }
+}

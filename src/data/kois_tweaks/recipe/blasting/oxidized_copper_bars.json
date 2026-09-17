@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": "minecraft:copper_bars",
+  "result": {
+    "id": "minecraft:oxidized_copper_bars"
+  },
+  "experience": 0.3,
+  "cookingtime": 200
+}
