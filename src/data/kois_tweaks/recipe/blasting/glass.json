@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.3,
+  "category": "blocks",
+  "ingredient": "minecraft:sand",
+  "result": {
+    "id": "minecraft:glass"
+  },
+  "cookingtime": 200
+}
