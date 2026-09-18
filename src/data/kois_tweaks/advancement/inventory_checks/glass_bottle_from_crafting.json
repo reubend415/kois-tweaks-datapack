@@ -120,6 +120,102 @@
 			"conditions": {
 				"recipes": "kois_tweaks:crafting/clone_lily_pad"
 			}
+		},
+		"made_black_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/black_concrete"
+			}
+		},
+		"made_blue_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/blue_concrete"
+			}
+		},
+		"made_brown_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/brown_concrete"
+			}
+		},
+		"made_cyan_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/cyan_concrete"
+			}
+		},
+		"made_gray_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/gray_concrete"
+			}
+		},
+		"made_green_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/green_concrete"
+			}
+		},
+		"made_light_blue_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/light_blue_concrete"
+			}
+		},
+		"made_light_gray_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/light_gray_concrete"
+			}
+		},
+		"made_lime_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/lime_concrete"
+			}
+		},
+		"made_magenta_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/magenta_concrete"
+			}
+		},
+		"made_orange_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/orange_concrete"
+			}
+		},
+		"made_pink_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/pink_concrete"
+			}
+		},
+		"made_purple_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/purple_concrete"
+			}
+		},
+		"made_red_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/red_concrete"
+			}
+		},
+		"made_white_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/white_concrete"
+			}
+		},
+		"made_yellow_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/yellow_concrete"
+			}
 		}
 	},
 	"requirements": [
@@ -143,7 +239,23 @@
 			"clone_big_dripleaf",
 			"clone_small_dripleaf",
 			"clone_dandelion",
-			"clone_lily_pad"
+			"clone_lily_pad",
+			"made_black_concrete",
+			"made_blue_concrete",
+			"made_brown_concrete",
+			"made_cyan_concrete",
+			"made_gray_concrete",
+			"made_green_concrete",
+			"made_light_blue_concrete",
+			"made_light_gray_concrete",
+			"made_lime_concrete",
+			"made_magenta_concrete",
+			"made_orange_concrete",
+			"made_pink_concrete",
+			"made_purple_concrete",
+			"made_red_concrete",
+			"made_white_concrete",
+			"made_yellow_concrete"
 		]
 	],
 	"rewards": {

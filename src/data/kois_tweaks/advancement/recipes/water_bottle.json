@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kois_tweaks:crafting/black_concrete",
+      "kois_tweaks:crafting/blue_concrete",
+      "kois_tweaks:crafting/brown_concrete",
+      "kois_tweaks:crafting/clone_allium",
+      "kois_tweaks:crafting/clone_azure_bluet",
+      "kois_tweaks:crafting/clone_big_dripleaf",
+      "kois_tweaks:crafting/clone_blue_orchid",
+      "kois_tweaks:crafting/clone_closed_eyeblossom",
+      "kois_tweaks:crafting/clone_cornflower",
+      "kois_tweaks:crafting/clone_dandelion",
+      "kois_tweaks:crafting/clone_lily_of_the_valley",
+      "kois_tweaks:crafting/clone_lily_pad",
+      "kois_tweaks:crafting/clone_open_eyeblossom",
+      "kois_tweaks:crafting/clone_orange_tulip",
+      "kois_tweaks:crafting/clone_oxeye_daisy",
+      "kois_tweaks:crafting/clone_pink_tulip",
+      "kois_tweaks:crafting/clone_poppy",
+      "kois_tweaks:crafting/clone_red_tulip",
+      "kois_tweaks:crafting/clone_small_dripleaf",
+      "kois_tweaks:crafting/clone_spore_blossom",
+      "kois_tweaks:crafting/clone_white_tulip",
+      "kois_tweaks:crafting/clone_wither_rose",
+      "kois_tweaks:crafting/cyan_concrete",
+      "kois_tweaks:crafting/gray_concrete",
+      "kois_tweaks:crafting/green_concrete",
+      "kois_tweaks:crafting/green_dye_from_patina",
+      "kois_tweaks:crafting/light_blue_concrete",
+      "kois_tweaks:crafting/light_gray_concrete",
+      "kois_tweaks:crafting/lime_concrete",
+      "kois_tweaks:crafting/magenta_concrete",
+      "kois_tweaks:crafting/orange_concrete",
+      "kois_tweaks:crafting/pink_concrete",
+      "kois_tweaks:crafting/purple_concrete",
+      "kois_tweaks:crafting/red_concrete",
+      "kois_tweaks:crafting/white_concrete",
+      "kois_tweaks:crafting/yellow_concrete"
+    ]
+  }
+}
