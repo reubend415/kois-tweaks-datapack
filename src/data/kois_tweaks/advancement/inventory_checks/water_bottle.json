@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "has_water_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:water"
+              },
+              "minecraft:max_stack_size": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function":	"kois_tweaks:inventory_mechanics/check_if_water_bottle_should_be_processed"
+  }
+}

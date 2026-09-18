@@ -1,0 +1,154 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"made_green_dye_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/green_dye_from_patina"
+			}
+		},
+		"clone_lily_of_the_valley": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_lily_of_the_valley"
+			}
+		},
+		"clone_cornflower": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_cornflower"
+			}
+		},
+		"clone_wither_rose": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_wither_rose"
+			}
+		},
+		"clone_spore_blossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_spore_blossom"
+			}
+		},
+		"clone_oxeye_daisy": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_oxeye_daisy"
+			}
+		},
+		"clone_open_eyeblossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_open_eyeblossom"
+			}
+		},
+		"clone_closed_eyeblossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_closed_eyeblossom"
+			}
+		},
+		"clone_poppy": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_poppy"
+			}
+		},
+		"clone_allium": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_allium"
+			}
+		},
+		"clone_blue_orchid": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_blue_orchid"
+			}
+		},
+		"clone_azure_bluet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_azure_bluet"
+			}
+		},
+		"clone_red_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_red_tulip"
+			}
+		},
+		"clone_orange_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_orange_tulip"
+			}
+		},
+		"clone_pink_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_pink_tulip"
+			}
+		},
+		"clone_white_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_white_tulip"
+			}
+		},
+		"clone_big_dripleaf": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_big_dripleaf"
+			}
+		},
+		"clone_small_dripleaf": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_small_dripleaf"
+			}
+		},
+		"clone_dandelion": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_dandelion"
+			}
+		},
+		"clone_lily_pad": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/clone_lily_pad"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"made_green_dye_from_patina",
+			"clone_lily_of_the_valley",
+			"clone_cornflower",
+			"clone_wither_rose",
+			"clone_spore_blossom",
+			"clone_oxeye_daisy",
+			"clone_open_eyeblossom",
+			"clone_closed_eyeblossom",
+			"clone_poppy",
+			"clone_allium",
+			"clone_blue_orchid",
+			"clone_azure_bluet",
+			"clone_red_tulip",
+			"clone_orange_tulip",
+			"clone_pink_tulip",
+			"clone_white_tulip",
+			"clone_big_dripleaf",
+			"clone_small_dripleaf",
+			"clone_dandelion",
+			"clone_lily_pad"
+		]
+	],
+	"rewards": {
+		"function": "kois_tweaks:inventory_mechanics/advancement_glass_bottle_from_crafting",
+		"loot": [],
+		"recipes": []
+	}
+}
