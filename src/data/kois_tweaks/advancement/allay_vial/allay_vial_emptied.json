@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "kois_tweaks:allay_released"
+    "function": "kois_tweaks:allay_vial_mechanics/allay_released"
   }
 }

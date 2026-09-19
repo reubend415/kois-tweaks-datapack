@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "kois_tweaks:allay_clicked_with_vial"
+    "function": "kois_tweaks:allay_vial_mechanics/allay_clicked_with_vial"
   }
 }
