@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "oxidized_copper_bulb",
+  "category": "building",
+  "ingredients": [
+    "minecraft:copper_bulb",
+    "minecraft:potion"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:oxidized_copper_bulb"
+  }
+}

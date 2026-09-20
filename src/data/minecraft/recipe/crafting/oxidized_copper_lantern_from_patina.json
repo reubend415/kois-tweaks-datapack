@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "oxidized_copper_lantern",
+	"category": "building",
+	"ingredients": [
+		"minecraft:copper_lantern",
+		"minecraft:potion"
+	],
+	"result": {
+		"components": {},
+		"count": 1,
+		"id": "minecraft:oxidized_copper_lantern"
+	}
+}

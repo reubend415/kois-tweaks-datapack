@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "oxidized_lightning_rod",
+	"category": "building",
+	"ingredients": [
+		"minecraft:lightning_rod",
+		"minecraft:potion"
+	],
+	"result": {
+		"components": {},
+		"count": 1,
+		"id": "minecraft:oxidized_lightning_rod"
+	}
+}
