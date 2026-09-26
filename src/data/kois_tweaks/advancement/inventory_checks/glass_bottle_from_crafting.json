@@ -300,6 +300,12 @@
 			"conditions": {
 				"recipes": "kois_tweaks:crafting/oxidized_lightning_rod_from_patina"
 			}
+		},
+		"made_dough_from_water": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/dough_from_water"
+			}
 		}
 	},
 	"requirements": [
@@ -353,7 +359,8 @@
 			"made_oxidized_copper_trapdoor",
 			"made_oxidized_copper_lantern",
 			"made_oxidized_copper_bulb",
-			"made_oxidized_lightning_rod"
+			"made_oxidized_lightning_rod",
+			"made_dough_from_water"
 		]
 	],
 	"rewards": {
