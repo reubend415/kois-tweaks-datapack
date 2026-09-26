@@ -1,4 +1,7 @@
 {
   "item.minecraft.enderman_spawn_egg": "Flour",
-  "item.minecraft.shulker_spawn_egg": "Dough"
+  "item.minecraft.shulker_spawn_egg": "Dough",
+  "item.minecraft.beetroot_soup": "Milk Bottle",
+  "desc.kleispack.cleanse": "✚ Cleanse",
+  "item.minecraft.zombie_spawn_egg": "Cheese"
 }
