@@ -2,9 +2,9 @@
   "item.minecraft.enderman_spawn_egg": "Flour",
   "item.minecraft.shulker_spawn_egg": "Dough",
   "item.minecraft.beetroot_soup": "Milk Bottle",
-  "desc.kleispack.cleanse": "✚ Cleanse",
+  "desc.maple.cleanse": "✚ Cleanse",
   "item.minecraft.zombie_spawn_egg": "Cheese",
   "item.minecraft.beetroot": "Tomatoes",
   "item.minecraft.beetroot_seeds": "Tomato Seeds",
-  "effect.kleispack.regeneration": " Regen (%s)"
+  "effect.maple.regeneration": " Regen (%s)"
 }
