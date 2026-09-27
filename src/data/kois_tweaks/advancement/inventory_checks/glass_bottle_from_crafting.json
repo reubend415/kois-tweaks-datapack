@@ -306,6 +306,12 @@
 			"conditions": {
 				"recipes": "kois_tweaks:crafting/dough_from_water"
 			}
+		},
+		"made_cheese_from_milk": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "kois_tweaks:crafting/cheese"
+			}
 		}
 	},
 	"requirements": [
@@ -360,7 +366,8 @@
 			"made_oxidized_copper_lantern",
 			"made_oxidized_copper_bulb",
 			"made_oxidized_lightning_rod",
-			"made_dough_from_water"
+			"made_dough_from_water",
+			"made_cheese_from_milk"
 		]
 	],
 	"rewards": {
