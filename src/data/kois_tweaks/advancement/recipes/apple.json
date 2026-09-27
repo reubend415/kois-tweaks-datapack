@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kois_tweaks:smoking/baked_apple",
+      "kois_tweaks:campfire/baked_apple",
+      "kois_tweaks:crafting/canned_apples",
+      "kois_tweaks:crafting/apple_empanada"
+    ]
+  }
+}
