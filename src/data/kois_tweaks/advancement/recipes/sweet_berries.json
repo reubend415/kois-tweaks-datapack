@@ -19,11 +19,11 @@
   ],
   "rewards": {
     "recipes": [
-      "kois_tweaks:smoking/sweet_berry_mash",
-      "kois_tweaks:campfire/sweet_berry_mash",
-      "kois_tweaks:crafting/sweet_berry_jam",
-      "kois_tweaks:crafting/sweet_berry_danish",
-      "kois_tweaks:crafting/sweet_berry_toast"
+      "kois_tweaks:food/smoking/sweet_berry_mash",
+      "kois_tweaks:food/campfire/sweet_berry_mash",
+      "kois_tweaks:food/crafting/sweet_berry_jam",
+      "kois_tweaks:food/crafting/sweet_berry_danish",
+      "kois_tweaks:food/crafting/sweet_berry_toast"
     ]
   }
 }

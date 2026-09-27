@@ -304,13 +304,13 @@
 		"made_dough_from_water": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipes": "kois_tweaks:crafting/dough_from_water"
+				"recipes": "kois_tweaks:food/crafting/dough_from_water"
 			}
 		},
 		"made_cheese_from_milk": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipes": "kois_tweaks:crafting/cheese"
+				"recipes": "kois_tweaks:food/crafting/cheese"
 			}
 		}
 	},
