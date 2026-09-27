@@ -3,5 +3,8 @@
   "item.minecraft.shulker_spawn_egg": "Dough",
   "item.minecraft.beetroot_soup": "Milk Bottle",
   "desc.kleispack.cleanse": "✚ Cleanse",
-  "item.minecraft.zombie_spawn_egg": "Cheese"
+  "item.minecraft.zombie_spawn_egg": "Cheese",
+  "item.minecraft.beetroot": "Tomatoes",
+  "item.minecraft.beetroot_seeds": "Tomato Seeds",
+  "effect.kleispack.regeneration": " Regen (%s)"
 }

@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:smoking",
+	"category": "food",
+	"cookingtime": 100,
+	"experience": 0.35,
+	"ingredient": "minecraft:apple",
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "❤❤",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.regeneration",
+					"with": [
+						"0:10"
+					],
+					"color": "#e85e8f",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:regeneration",
+								"duration": 200,
+								"show_particles": false,
+								"show_icon": true
+							}
+						],
+						"probability": 1
+					}
+				]
+			},
+            "minecraft:item_model": "kois_tweaks:baked_apple",
+            "minecraft:item_name": "Baked Apple",
+			"minecraft:food": {
+				"nutrition": 5,
+				"saturation": 10,
+				"can_always_eat": true
+			}
+		}
+	}
+}
