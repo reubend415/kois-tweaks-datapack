@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ESE",
+		"SBS",
+		"EIE"
+	],
+	"key": {
+		"S": "minecraft:prismarine_crystals",
+		"B": "minecraft:enchanted_book",
+		"I": "minecraft:gold_ingot",
+		"E": "minecraft:glowstone_dust"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:smite": 4,
+				"minecraft:channeling": 1
+			},
+			"minecraft:lore": [
+				{
+					"translate": "Boon of the Sky",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "kois_tweaks:boon_sky"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

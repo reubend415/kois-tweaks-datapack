@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:amethyst_shard",
+    "X": "minecraft:diamond",
+    "Y": "minecraft:echo_shard"
+  },
+  "pattern": [
+    "#X#",
+    "XYX",
+    "#X#"
+  ],
+  "result": {
+    "components": {
+      "!minecraft:entity_data": {},
+      "minecraft:rarity": "rare"
+    },
+    "count": 2,
+    "id": "minecraft:warden_spawn_egg"
+  }
+}

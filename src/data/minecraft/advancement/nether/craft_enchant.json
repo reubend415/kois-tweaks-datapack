@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:nether/obtain_blaze_rod",
+  "criteria": {
+    "craft_enchant": {
+      "conditions": {
+        "recipes": "kois_tweaks:crafting/enchantments/soul_bound_book"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nether.craft_enchant.description"
+    },
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.nether.craft_enchant.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_enchant"
+    ]
+  ]
+}
