@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SFS",
+		"FBF",
+		"SFS"
+	],
+	"key": {
+		"S": "minecraft:spectral_arrow",
+		"B": "minecraft:enchanted_book",
+		"F": "minecraft:gold_ingot"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:impaling": 3,
+				"minecraft:piercing": 2
+			},
+			"minecraft:lore": [
+				{
+					"translate": "Boon of the Hunt",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "kois_tweaks:boon_hunt"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}
