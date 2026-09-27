@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SFS",
+		"FBF",
+		"SFS"
+	],
+	"key": {
+		"S": "minecraft:wind_charge",
+		"B": "minecraft:enchanted_book",
+		"F": "minecraft:feather"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:feather_falling": 4
+			},
+			"minecraft:lore": [
+				{
+					"translate": "Boon of the Winged",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "kois_tweaks:boon_winged"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

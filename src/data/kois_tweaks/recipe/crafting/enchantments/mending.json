@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ESE",
+		"EBE",
+		"EDE"
+	],
+	"key": {
+		"S": "minecraft:warden_spawn_egg",
+		"B": "minecraft:enchanted_book",
+		"E": "minecraft:diamond",
+		"D": "minecraft:diamond_block"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:mending": 1
+			},
+			"minecraft:rarity": "epic",
+			"minecraft:lore": [
+				{
+					"translate": "Boon of Regeneration",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "kois_tweaks:boon_regeneration"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

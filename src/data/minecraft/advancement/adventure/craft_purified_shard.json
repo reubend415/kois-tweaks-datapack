@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "craft_purified_shard": {
+      "conditions": {
+        "recipes": "kois_tweaks:crafting/purified_echo_shard"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.craft_purified_shard.description"
+    },
+    "icon": {
+      "id": "minecraft:warden_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.adventure.craft_purified_shard.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_purified_shard"
+    ]
+  ]
+}
