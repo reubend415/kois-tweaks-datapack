@@ -12,5 +12,17 @@
   "item.minecraft.zombie_spawn_egg": "Cheese",
   "item.minecraft.beetroot": "Tomatoes",
   "item.minecraft.beetroot_seeds": "Tomato Seeds",
-  "effect.maple.regeneration": " Regen (%s)"
+  "item.maple.grilled_tomatoes": "Grilled Tomatoes",
+  "item.maple.pickled_tomatoes": "Pickled Tomatoes",
+  "item.maple.bruschetta": "Bruschetta",
+  "item.maple.cheese_pizza": "Cheese Pizza",
+  "item.maple.meat_pizza": "Meat Pizza",
+  "item.maple.mushroom_pizza": "Mushroom Pizza",
+  "item.maple.warped_pizza": "Warped Pizza",
+  "item.maple.kontomire_stew": "Kontomire-Dandelion Stew",
+
+  "effect.maple.regeneration": " Regen (%s)",
+  "effect.maple.strength": " Strength (%s)",
+  "effect.maple.strength_2": " Strength II (%s)",
+  "effect.maple.invisibility": " Invisibility (%s)"
 }

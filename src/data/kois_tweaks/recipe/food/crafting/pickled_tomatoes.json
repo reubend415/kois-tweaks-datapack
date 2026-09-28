@@ -2,15 +2,17 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:apple",
-		"minecraft:sugar",
+		"minecraft:beetroot",
+		"minecraft:brown_mushroom",
 		"minecraft:glass_bottle"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "kois_tweaks:canned_apples",
-			"minecraft:item_name": "Canned Apples",
+			"minecraft:item_model": "kois_tweaks:pickled_tomatoes",
+			"minecraft:item_name": {
+				"translate": "item.maple.pickled_tomatoes"
+			},
 			"minecraft:food": {
 				"nutrition": 6,
 				"saturation": 12,
@@ -23,8 +25,8 @@
 						"type": "minecraft:apply_effects",
 						"effects": [
 							{
-								"id": "minecraft:regeneration",
-								"duration": 1200,
+								"id": "minecraft:strength",
+								"duration": 6000,
 								"show_particles": false,
 								"show_icon": true
 							}
@@ -40,11 +42,11 @@
 					"italic": false
 				},
 				{
-					"translate": "effect.maple.regeneration",
+					"translate": "effect.maple.strength",
 					"with": [
-						"1:00"
+						"5:00"
 					],
-					"color": "#e85e8f",
+					"color": "#e65f33",
 					"italic": false
 				}
 			],
