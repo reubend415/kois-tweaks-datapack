@@ -14,7 +14,7 @@
 			"minecraft:item_name": "Sweet Berry Danish",
 			"minecraft:food": {
 				"nutrition": 8,
-				"saturation": 14,
+				"saturation": 20,
 				"can_always_eat": false
 			},
 			"minecraft:consumable": {
@@ -29,6 +29,13 @@
 								"duration": 9600,
 								"show_particles": false,
 								"show_icon": true
+							},
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 100,
+								"duration": 80,
+								"show_particles": false,
+								"show_icon": false
 							}
 						]
 					}
