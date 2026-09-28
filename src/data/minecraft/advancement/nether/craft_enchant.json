@@ -3,7 +3,7 @@
   "criteria": {
     "craft_enchant": {
       "conditions": {
-        "recipes": "kois_tweaks:crafting/enchantments/soul_bound_book"
+        "recipes": "maple:crafting/enchantments/soul_bound_book"
       },
       "trigger": "minecraft:recipe_crafted"
     }

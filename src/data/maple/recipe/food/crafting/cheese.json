@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:beetroot_soup",
+		"minecraft:sugar",
+		"minecraft:brown_mushroom"
+	],
+	"result": {
+		"count":4,
+		"id": "minecraft:zombie_spawn_egg",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "Ingredient",
+					"color": "gray",
+					"italic": true
+				}
+			]
+		}
+	}
+}

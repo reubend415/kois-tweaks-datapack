@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:creeper,tag=!SpawnChecked] at @s run function maple:spawn_mechanics/check_creeper_spawn

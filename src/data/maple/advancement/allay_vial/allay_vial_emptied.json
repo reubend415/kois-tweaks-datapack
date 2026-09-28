@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:allay_spawn_egg",
+            "components": {
+              "minecraft:item_model": "maple:full_allay_vial"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "maple:allay_vial_mechanics/allay_released"
+  }
+}

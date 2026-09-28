@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" S ",
+		"SBS",
+		" S "
+	],
+	"key": {
+		"S": "minecraft:spider_eye",
+		"B": "minecraft:enchanted_book"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:bane_of_arthropods": 5
+			},
+			"minecraft:lore": [
+				{
+					"translate": "Boon of the Repulsive",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "maple:boon_insects"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:food/smoking/baked_apple",
+      "maple:food/campfire/baked_apple",
+      "maple:food/crafting/canned_apples",
+      "maple:food/crafting/apple_empanada"
+    ]
+  }
+}

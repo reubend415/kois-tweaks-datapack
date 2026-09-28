@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:glass_bottle",
+          "components": {
+            "minecraft:item_model": "maple:empty_allay_vial"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:allay"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "maple:allay_vial_mechanics/allay_clicked_with_vial"
+  }
+}

@@ -1,0 +1,378 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"made_green_dye_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/green_dye_from_patina"
+			}
+		},
+		"clone_lily_of_the_valley": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_lily_of_the_valley"
+			}
+		},
+		"clone_cornflower": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_cornflower"
+			}
+		},
+		"clone_wither_rose": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_wither_rose"
+			}
+		},
+		"clone_spore_blossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_spore_blossom"
+			}
+		},
+		"clone_oxeye_daisy": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_oxeye_daisy"
+			}
+		},
+		"clone_open_eyeblossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_open_eyeblossom"
+			}
+		},
+		"clone_closed_eyeblossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_closed_eyeblossom"
+			}
+		},
+		"clone_poppy": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_poppy"
+			}
+		},
+		"clone_allium": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_allium"
+			}
+		},
+		"clone_blue_orchid": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_blue_orchid"
+			}
+		},
+		"clone_azure_bluet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_azure_bluet"
+			}
+		},
+		"clone_red_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_red_tulip"
+			}
+		},
+		"clone_orange_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_orange_tulip"
+			}
+		},
+		"clone_pink_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_pink_tulip"
+			}
+		},
+		"clone_white_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_white_tulip"
+			}
+		},
+		"clone_big_dripleaf": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_big_dripleaf"
+			}
+		},
+		"clone_small_dripleaf": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_small_dripleaf"
+			}
+		},
+		"clone_dandelion": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_dandelion"
+			}
+		},
+		"clone_lily_pad": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/clone_lily_pad"
+			}
+		},
+		"made_black_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/black_concrete"
+			}
+		},
+		"made_blue_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/blue_concrete"
+			}
+		},
+		"made_brown_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/brown_concrete"
+			}
+		},
+		"made_cyan_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/cyan_concrete"
+			}
+		},
+		"made_gray_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/gray_concrete"
+			}
+		},
+		"made_green_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/green_concrete"
+			}
+		},
+		"made_light_blue_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/light_blue_concrete"
+			}
+		},
+		"made_light_gray_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/light_gray_concrete"
+			}
+		},
+		"made_lime_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/lime_concrete"
+			}
+		},
+		"made_magenta_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/magenta_concrete"
+			}
+		},
+		"made_orange_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/orange_concrete"
+			}
+		},
+		"made_pink_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/pink_concrete"
+			}
+		},
+		"made_purple_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/purple_concrete"
+			}
+		},
+		"made_red_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/red_concrete"
+			}
+		},
+		"made_white_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/white_concrete"
+			}
+		},
+		"made_yellow_concrete": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/yellow_concrete"
+			}
+		},
+		"made_oxidized_copper": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_from_patina"
+			}
+		},
+		"made_oxidized_cut_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_cut_copper_from_patina"
+			}
+		},
+		"made_oxidized_cut_copper_stairs": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_cut_copper_stairs_from_patina"
+			}
+		},
+		"made_oxidized_chiseled_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_chiseled_copper_from_patina"
+			}
+		},
+		"made_oxidized_copper_bars_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_bars_from_patina"
+			}
+		},
+		"made_oxidized_copper_chain_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_chain_from_patina"
+			}
+		},
+		"made_oxidized_copper_door_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_door_from_patina"
+			}
+		},
+		"made_oxidized_copper_golem_statue": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_golem_statue_from_patina"
+			}
+		},
+		"made_oxidized_copper_grate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_grate_from_patina"
+			}
+		},
+		"made_oxidized_cut_copper_slab": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_cut_copper_slab_from_patina"
+			}
+		},
+		"made_oxidized_copper_trapdoor": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_trapdoor_from_patina"
+			}
+		},
+		"made_oxidized_copper_lantern": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_lantern_from_patina"
+			}
+		},
+		"made_oxidized_copper_bulb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_copper_bulb_from_patina"
+			}
+		},
+		"made_oxidized_lightning_rod": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/oxidized_lightning_rod_from_patina"
+			}
+		},
+		"made_dough_from_water": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:food/crafting/dough_from_water"
+			}
+		},
+		"made_cheese_from_milk": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:food/crafting/cheese"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"made_green_dye_from_patina",
+			"clone_lily_of_the_valley",
+			"clone_cornflower",
+			"clone_wither_rose",
+			"clone_spore_blossom",
+			"clone_oxeye_daisy",
+			"clone_open_eyeblossom",
+			"clone_closed_eyeblossom",
+			"clone_poppy",
+			"clone_allium",
+			"clone_blue_orchid",
+			"clone_azure_bluet",
+			"clone_red_tulip",
+			"clone_orange_tulip",
+			"clone_pink_tulip",
+			"clone_white_tulip",
+			"clone_big_dripleaf",
+			"clone_small_dripleaf",
+			"clone_dandelion",
+			"clone_lily_pad",
+			"made_black_concrete",
+			"made_blue_concrete",
+			"made_brown_concrete",
+			"made_cyan_concrete",
+			"made_gray_concrete",
+			"made_green_concrete",
+			"made_light_blue_concrete",
+			"made_light_gray_concrete",
+			"made_lime_concrete",
+			"made_magenta_concrete",
+			"made_orange_concrete",
+			"made_pink_concrete",
+			"made_purple_concrete",
+			"made_red_concrete",
+			"made_white_concrete",
+			"made_yellow_concrete",
+			"made_oxidized_copper",
+			"made_oxidized_cut_copper_from_patina",
+			"made_oxidized_cut_copper_stairs",
+			"made_oxidized_chiseled_copper_from_patina",
+			"made_oxidized_copper_bars_from_patina",
+			"made_oxidized_copper_chain_from_patina",
+			"made_oxidized_copper_door_from_patina",
+			"made_oxidized_copper_golem_statue",
+			"made_oxidized_copper_grate",
+			"made_oxidized_cut_copper_slab",
+			"made_oxidized_copper_trapdoor",
+			"made_oxidized_copper_lantern",
+			"made_oxidized_copper_bulb",
+			"made_oxidized_lightning_rod",
+			"made_dough_from_water",
+			"made_cheese_from_milk"
+		]
+	],
+	"rewards": {
+		"function": "maple:inventory_mechanics/advancement_glass_bottle_from_crafting",
+		"loot": [],
+		"recipes": []
+	}
+}

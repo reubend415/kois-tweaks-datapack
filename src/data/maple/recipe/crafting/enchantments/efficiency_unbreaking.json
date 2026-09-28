@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"pBd",
+		" D "
+	],
+	"key": {
+		"B": "minecraft:enchanted_book",
+		"D": "minecraft:diamond",
+		"d": "minecraft:diamond_axe",
+		"p": "minecraft:diamond_pickaxe"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:efficiency": 4,
+				"minecraft:unbreaking": 3
+			},
+			"minecraft:lore": [
+				{
+					"text": "Boon of the Mines",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "maple:boon_mines"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}
