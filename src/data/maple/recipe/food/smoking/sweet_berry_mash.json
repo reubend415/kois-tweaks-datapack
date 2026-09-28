@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:smoking",
+	"category": "food",
+	"cookingtime": 200,
+	"experience": 0.35,
+	"ingredient": "minecraft:sweet_berries",
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+            "minecraft:item_model": "maple:sweet_berry_mash",
+            "minecraft:item_name": "Sweet Berry Mash",
+			"minecraft:lore": [
+				{
+					"text": "\uE00D\uE00D",
+					"color": "green",
+					"italic": false
+				},
+				{
+					"text": "❤❤ (0:10)",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"consume_seconds": 0.8,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:health_boost",
+								"amplifier": 0,
+								"duration": 200,
+								"show_particles": false,
+								"show_icon": true
+							}
+						],
+						"probability": 1
+					}
+				]
+			},
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation": 8,
+				"can_always_eat": false
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+give @s minecraft:allay_spawn_egg[minecraft:item_model="maple:full_allay_vial",minecraft:item_name="Allay Vial"]

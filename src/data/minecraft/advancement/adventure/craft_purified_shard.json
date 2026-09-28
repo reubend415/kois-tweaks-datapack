@@ -3,7 +3,7 @@
   "criteria": {
     "craft_purified_shard": {
       "conditions": {
-        "recipes": "kois_tweaks:crafting/purified_echo_shard"
+        "recipes": "maple:crafting/purified_echo_shard"
       },
       "trigger": "minecraft:recipe_crafted"
     }

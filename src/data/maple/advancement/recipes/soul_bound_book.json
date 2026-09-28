@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "craft_enchanted_book": {
+      "conditions": {
+        "recipes": "maple:crafting/enchantments/soul_bound_book"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "requirements": [
+    [
+      "craft_enchanted_book"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/enchantments/bane_of_arthropods",
+      "maple:crafting/enchantments/channeling_smite",
+      "maple:crafting/enchantments/density_knockback_punch",
+      "maple:crafting/enchantments/depth_strider_riptide_aqua_affinity_respiration",
+      "maple:crafting/enchantments/efficiency_unbreaking",
+      "maple:crafting/enchantments/feather_falling",
+      "maple:crafting/enchantments/flame_fire_aspect_fire_protection",
+      "maple:crafting/enchantments/infinity",
+      "maple:crafting/enchantments/looting_fortune",
+      "maple:crafting/enchantments/lure_luck_of_the_sea",
+      "maple:crafting/enchantments/lunge_breach",
+      "maple:crafting/enchantments/mending",
+      "maple:crafting/enchantments/piercing_impaling",
+      "maple:crafting/enchantments/power_multishot",
+      "maple:crafting/enchantments/silk_touch",
+      "maple:crafting/enchantments/swift_sneak_soul_speed"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tomato"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:food/smoking/grilled_tomatoes",
+      "maple:food/campfire/grilled_tomatoes",
+      "maple:food/crafting/pickled_tomatoes",
+      "maple:food/crafting/bruschetta",
+      "maple:food/crafting/cheese_pizza",
+      "maple:food/crafting/meat_pizza",
+      "maple:food/crafting/kontomire_stew",
+      "maple:food/crafting/warped_pizza",
+      "maple:food/crafting/mushroom_pizza"
+    ]
+  }
+}

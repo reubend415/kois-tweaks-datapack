@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"aSa",
+		"ABA",
+		"aAa"
+	],
+	"key": {
+		"S": "minecraft:shears",
+		"B": "minecraft:enchanted_book",
+		"A": "minecraft:glowstone_dust",
+		"a": "minecraft:string"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:silk_touch": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "Boon of the Passive",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "maple:boon_passive"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

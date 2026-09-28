@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"FFF",
+		"FBF",
+		"FFF"
+	],
+	"key": {
+		"B": "minecraft:enchanted_book",
+		"F": "minecraft:iron_block"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:density": 4,
+				"minecraft:knockback": 2,
+				"minecraft:punch": 2
+			},
+			"minecraft:lore": [
+				{
+					"translate": "Boon of the Hefty",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "maple:boon_hefty"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" b ",
+		"FBF",
+		" F "
+	],
+	"key": {
+		"B": "minecraft:enchanted_book",
+		"F": "minecraft:nautilus_shell",
+		"b": "minecraft:azure_bluet"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:luck_of_the_sea": 3,
+				"minecraft:lure": 3,
+				"minecraft:loyalty": 1
+			},
+			"minecraft:lore": [
+				{
+					"translate": "Boon of the Bountiful",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "maple:boon_bountiful"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

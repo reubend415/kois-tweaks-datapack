@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kois_tweaks:item/purified_echo_shard"
+    "layer0": "maple:item/purified_echo_shard"
   }
 }

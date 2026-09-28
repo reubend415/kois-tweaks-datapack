@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/black_concrete",
+      "maple:crafting/blue_concrete",
+      "maple:crafting/brown_concrete",
+      "maple:crafting/clone_allium",
+      "maple:crafting/clone_azure_bluet",
+      "maple:crafting/clone_big_dripleaf",
+      "maple:crafting/clone_blue_orchid",
+      "maple:crafting/clone_closed_eyeblossom",
+      "maple:crafting/clone_cornflower",
+      "maple:crafting/clone_dandelion",
+      "maple:crafting/clone_lily_of_the_valley",
+      "maple:crafting/clone_lily_pad",
+      "maple:crafting/clone_open_eyeblossom",
+      "maple:crafting/clone_orange_tulip",
+      "maple:crafting/clone_oxeye_daisy",
+      "maple:crafting/clone_pink_tulip",
+      "maple:crafting/clone_poppy",
+      "maple:crafting/clone_red_tulip",
+      "maple:crafting/clone_small_dripleaf",
+      "maple:crafting/clone_spore_blossom",
+      "maple:crafting/clone_white_tulip",
+      "maple:crafting/clone_wither_rose",
+      "maple:crafting/cyan_concrete",
+      "maple:crafting/gray_concrete",
+      "maple:crafting/green_concrete",
+      "maple:crafting/green_dye_from_patina",
+      "maple:crafting/light_blue_concrete",
+      "maple:crafting/light_gray_concrete",
+      "maple:crafting/lime_concrete",
+      "maple:crafting/magenta_concrete",
+      "maple:crafting/orange_concrete",
+      "maple:crafting/pink_concrete",
+      "maple:crafting/purple_concrete",
+      "maple:crafting/red_concrete",
+      "maple:crafting/white_concrete",
+      "maple:crafting/yellow_concrete"
+    ]
+  }
+}

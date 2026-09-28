@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ASA",
+		"ABA",
+		"AAA"
+	],
+	"key": {
+		"S": "minecraft:ender_pearl",
+		"B": "minecraft:enchanted_book",
+		"A": "minecraft:spectral_arrow"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:infinity": 1
+			},
+			"minecraft:lore": [
+				{
+					"translate": "Boon of the Endless",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "maple:boon_endless"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}
