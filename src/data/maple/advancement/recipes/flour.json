@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flour": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enderman_spawn_egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_flour"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:food/crafting/dough",
+      "maple:food/crafting/dough_from_water"
+    ]
+  }
+}

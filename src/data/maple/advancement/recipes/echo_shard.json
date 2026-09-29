@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_echo_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:echo_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_echo_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:recovery_compass",
+      "maple:crafting/purified_echo_shard"
+    ]
+  }
+}
