@@ -1,0 +1,36 @@
+{
+  "given_item_modifier": [
+    {
+      "type": "minecraft:exploration_map",
+      "decoration": "minecraft:red_x",
+      "destination": "#minecraft:on_trail_ruins_maps",
+      "search_radius": 100
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:discard"
+      }
+    }
+  ],
+  "gives": {
+    "id": "minecraft:buried_treasure_map",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "filled_map.trail_ruins"
+      }
+    }
+  },
+  "max_uses": 999,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 1,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30
+}
