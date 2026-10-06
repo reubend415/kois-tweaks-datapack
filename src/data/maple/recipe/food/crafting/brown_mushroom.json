@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:crafting_shapeless",
-	"group": "flour",
+	"category": "misc",
 	"ingredients": [
 		"minecraft:brown_mushroom_block"
 	],

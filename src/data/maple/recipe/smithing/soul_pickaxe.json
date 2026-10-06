@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:warden_spawn_egg",
+  "base": "minecraft:netherite_pickaxe",
+  "result": {
+    "id": "minecraft:golden_pickaxe",
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "minecraft:deepslate",
+            "speed": 42,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 9,
+            "correct_for_drops": true
+          }
+        ],
+        "damage_per_block": 1
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:base_attack_speed",
+          "amount": -2.8,
+          "operation": "add_value",
+          "display": {
+            "type": "default"
+          }
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:base_attack_damage",
+          "amount": 5,
+          "operation": "add_value",
+          "display": {
+            "type": "default"
+          }
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Soul Haste",
+          "color": "#0042aa",
+          "italic": true
+        }
+      ],
+      "minecraft:item_name": "Netherite Pickaxe",
+      "minecraft:item_model": "minecraft:netherite_pickaxe",
+      "minecraft:rarity": "epic",
+      "minecraft:enchantable": {
+        "value": 15
+      },
+      "minecraft:enchantments": {},
+      "minecraft:max_damage": 2081
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}
