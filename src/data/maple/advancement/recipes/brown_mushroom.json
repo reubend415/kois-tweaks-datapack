@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:brown_mushroom",
+                "minecraft:brown_mushroom_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_mushroom"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:food/crafting/brown_mushroom",
+      "maple:crafting/brown_mushroom_block"
+    ]
+  }
+}
