@@ -24,5 +24,8 @@
   "effect.maple.regeneration": " Regen (%s)",
   "effect.maple.strength": " Strength (%s)",
   "effect.maple.strength_2": " Strength II (%s)",
-  "effect.maple.invisibility": " Invisibility (%s)"
+  "effect.maple.invisibility": " Invisibility (%s)",
+
+  "filled_map.shipwreck": "Shipwreck Map",
+  "filled_map.trail_ruins": "Trail Ruins Map"
 }
