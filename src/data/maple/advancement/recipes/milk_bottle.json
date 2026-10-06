@@ -22,7 +22,8 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:beetroot_soup"
+      "minecraft:beetroot_soup",
+      "maple:food/crafting/cheese"
     ]
   }
 }
