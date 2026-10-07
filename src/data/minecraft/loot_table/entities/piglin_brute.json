@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            },
+            "condition": {
+              "type": "minecraft:random_chance_with_enchanted_bonus",
+              "unenchanted_chance": 0.3,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.35,
+                "per_level_above_first": 0.05
+              },
+              "enchantment": "minecraft:looting"
+            }
+          }
+        }
+      ],
+      "condition": {
+        "type": "minecraft:killed_by_player"
+      }
+    }
+  ],
+  "random_sequence": "minecraft:entities/piglin_brute"
+}
