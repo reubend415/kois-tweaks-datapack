@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:diamond",
+  "base": "minecraft:diamond_sword",
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "minecraft:repair_cost": 0
+    }
+  }
+}

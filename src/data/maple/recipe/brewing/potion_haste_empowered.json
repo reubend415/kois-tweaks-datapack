@@ -11,7 +11,7 @@
           {
             "minecraft:haste": {
               "amplifier": 0,
-              "duration": 9600
+              "duration": 3600
             }
           }
         ]
@@ -33,7 +33,7 @@
           {
             "id": "minecraft:haste",
             "amplifier": 1,
-            "duration": 9600
+            "duration": 3600
           }
         ]
       },

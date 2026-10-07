@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:copper_ingot",
+  "base": "minecraft:copper_shovel",
+  "result": {
+    "id": "minecraft:copper_shovel",
+    "components": {
+      "minecraft:repair_cost": 0
+    }
+  }
+}

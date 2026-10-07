@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "smithing_repair": {
+      "conditions": {
+        "recipes": [
+            "maple:smithing/copper_axe",
+            "maple:smithing/copper_boots",
+            "maple:smithing/copper_chestplate",
+            "maple:smithing/copper_helmet",
+            "maple:smithing/copper_hoe",
+            "maple:smithing/copper_leggings",
+            "maple:smithing/copper_pickaxe",
+            "maple:smithing/copper_shovel",
+            "maple:smithing/copper_spear",
+            "maple:smithing/copper_sword",
+            "maple:smithing/diamond_axe",
+            "maple:smithing/diamond_boots",
+            "maple:smithing/diamond_chestplate",
+            "maple:smithing/diamond_helmet",
+            "maple:smithing/diamond_hoe",
+            "maple:smithing/diamond_leggings",
+            "maple:smithing/diamond_pickaxe",
+            "maple:smithing/diamond_shovel",
+            "maple:smithing/diamond_spear",
+            "maple:smithing/diamond_sword",
+            "maple:smithing/gold_axe",
+            "maple:smithing/gold_boots",
+            "maple:smithing/gold_chestplate",
+            "maple:smithing/gold_helmet",
+            "maple:smithing/gold_hoe",
+            "maple:smithing/gold_leggings",
+            "maple:smithing/gold_pickaxe",
+            "maple:smithing/gold_shovel",
+            "maple:smithing/gold_spear",
+            "maple:smithing/gold_sword",
+            "maple:smithing/iron_axe",
+            "maple:smithing/iron_boots",
+            "maple:smithing/iron_chestplate",
+            "maple:smithing/iron_helmet",
+            "maple:smithing/iron_hoe",
+            "maple:smithing/iron_leggings",
+            "maple:smithing/iron_pickaxe",
+            "maple:smithing/iron_shovel",
+            "maple:smithing/iron_spear",
+            "maple:smithing/iron_sword"
+        ]
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.smithing_repair.description"
+    },
+    "icon": {
+      "id": "minecraft:smithing_table"
+    },
+    "title": {
+      "translate": "advancements.story.smithing_repair.title"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_repair"
+    ]
+  ]
+}

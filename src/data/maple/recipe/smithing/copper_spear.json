@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:copper_ingot",
+  "base": "minecraft:copper_spear",
+  "result": {
+    "id": "minecraft:copper_spear",
+    "components": {
+      "minecraft:repair_cost": 0
+    }
+  }
+}

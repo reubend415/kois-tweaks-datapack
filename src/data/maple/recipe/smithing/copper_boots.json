@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:copper_ingot",
+  "base": "minecraft:copper_boots",
+  "result": {
+    "id": "minecraft:copper_boots",
+    "components": {
+      "minecraft:repair_cost": 0
+    }
+  }
+}

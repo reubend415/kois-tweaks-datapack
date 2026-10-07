@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:gold_ingot",
+  "base": "minecraft:golden_spear",
+  "result": {
+    "id": "minecraft:golden_spear",
+    "components": {
+      "minecraft:repair_cost": 0
+    }
+  }
+}

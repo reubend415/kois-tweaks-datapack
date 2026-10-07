@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:iron_ingot",
+  "base": "minecraft:iron_spear",
+  "result": {
+    "id": "minecraft:iron_spear",
+    "components": {
+      "minecraft:repair_cost": 0
+    }
+  }
+}
