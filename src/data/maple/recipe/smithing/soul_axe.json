@@ -1,25 +1,20 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:warden_spawn_egg",
-  "base": "minecraft:netherite_pickaxe",
+  "base": "minecraft:netherite_axe",
   "result": {
-    "id": "minecraft:golden_pickaxe",
+    "id": "minecraft:golden_axe",
     "components": {
       "minecraft:tool": {
         "rules": [
           {
-            "blocks": "minecraft:deepslate",
-            "speed": 42,
-            "correct_for_drops": true
-          },
-          {
-            "blocks": "#minecraft:mineable/pickaxe",
+            "blocks": "#minecraft:mineable/hoe",
             "speed": 9,
             "correct_for_drops": true
           },
           {
-            "blocks": "#minecraft:mineable/shovel",
-            "speed": 9,
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 18,
             "correct_for_drops": true
           }
         ],
@@ -30,7 +25,7 @@
         {
           "type": "minecraft:attack_speed",
           "id": "minecraft:base_attack_speed",
-          "amount": -2.8,
+          "amount": -3,
           "operation": "add_value",
           "display": {
             "type": "default"
@@ -39,7 +34,7 @@
         {
           "type": "minecraft:attack_damage",
           "id": "minecraft:base_attack_damage",
-          "amount": 5,
+          "amount": 9,
           "operation": "add_value",
           "display": {
             "type": "default"
@@ -53,13 +48,13 @@
           "italic": true
         },
         {
-            "text": "Earth Carver",
+            "text": "Leaf Shearing",
             "color": "dark_purple",
             "italic": true
         }
       ],
-      "minecraft:item_name": "Netherite Pickaxe",
-      "minecraft:item_model": "minecraft:netherite_pickaxe",
+      "minecraft:item_name": "Netherite Axe",
+      "minecraft:item_model": "minecraft:netherite_axe",
       "minecraft:rarity": "epic",
       "minecraft:repairable": {
         "items": [
