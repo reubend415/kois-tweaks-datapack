@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/black_wool",
+      "maple:crafting/blue_wool",
+      "maple:crafting/brown_wool",
+      "maple:crafting/cyan_wool",
+      "maple:crafting/gray_wool",
+      "maple:crafting/green_wool",
+      "maple:crafting/light_blue_wool",
+      "maple:crafting/light_gray_wool",
+      "maple:crafting/lime_wool",
+      "maple:crafting/magenta_wool",
+      "maple:crafting/orange_wool",
+      "maple:crafting/pink_wool",
+      "maple:crafting/purple_wool",
+      "maple:crafting/red_wool",
+      "maple:crafting/white_wool",
+      "maple:crafting/yellow_wool"
+    ]
+  }
+}

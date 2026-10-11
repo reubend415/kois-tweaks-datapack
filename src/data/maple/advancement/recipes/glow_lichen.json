@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glow_lichen": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:glow_lichen"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_glow_lichen"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/clone_glow_lichen"
+    ]
+  }
+}

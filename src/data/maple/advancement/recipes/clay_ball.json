@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_clay": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:clay_ball",
+                "minecraft:clay"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_clay"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/clay_ball",
+      "maple:blasting/brick",
+      "maple:blasting/terracotta"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_shrub": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:red_shrub"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_red_shrub"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/clone_red_shrub"
+    ]
+  }
+}

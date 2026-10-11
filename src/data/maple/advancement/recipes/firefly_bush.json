@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_firefly_bush": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:firefly_bush"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_firefly_bush"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/clone_firefly_bush"
+    ]
+  }
+}
