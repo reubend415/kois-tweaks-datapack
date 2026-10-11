@@ -3,7 +3,7 @@
   "addition": "minecraft:warden_spawn_egg",
   "base": "minecraft:netherite_axe",
   "result": {
-    "id": "minecraft:golden_axe",
+    "id": "minecraft:netherite_axe",
     "components": {
       "minecraft:tool": {
         "rules": [
@@ -46,11 +46,6 @@
           "text": "Soul Haste",
           "color": "dark_purple",
           "italic": true
-        },
-        {
-            "text": "Leaf Shearing",
-            "color": "dark_purple",
-            "italic": true
         }
       ],
       "minecraft:item_name": "Netherite Axe",
@@ -61,7 +56,7 @@
           "minecraft:diamond_block"
         ]
       },
-      "minecraft:max_damage": 2081
+      "minecraft:max_damage": 3000
     }
   },
   "template": "minecraft:netherite_upgrade_smithing_template"

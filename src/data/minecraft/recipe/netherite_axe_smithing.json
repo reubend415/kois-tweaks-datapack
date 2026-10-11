@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_axe",
+  "result": {
+    "id": "minecraft:netherite_axe",
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 9,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 9,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:diamond_block"
+      },
+      "minecraft:repair_cost": 0
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

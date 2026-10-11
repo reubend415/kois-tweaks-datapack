@@ -3,7 +3,7 @@
   "addition": "minecraft:warden_spawn_egg",
   "base": "minecraft:netherite_pickaxe",
   "result": {
-    "id": "minecraft:golden_pickaxe",
+    "id": "minecraft:netherite_pickaxe",
     "components": {
       "minecraft:tool": {
         "rules": [
@@ -51,11 +51,6 @@
           "text": "Soul Haste",
           "color": "dark_purple",
           "italic": true
-        },
-        {
-            "text": "Earth Carver",
-            "color": "dark_purple",
-            "italic": true
         }
       ],
       "minecraft:item_name": "Netherite Pickaxe",
@@ -66,7 +61,7 @@
           "minecraft:diamond_block"
         ]
       },
-      "minecraft:max_damage": 2081
+      "minecraft:max_damage": 3000
     }
   },
   "template": "minecraft:netherite_upgrade_smithing_template"
