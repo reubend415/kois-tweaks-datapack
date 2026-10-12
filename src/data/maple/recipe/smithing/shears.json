@@ -2,6 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:iron_ingot",
   "base": "minecraft:shears",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:shears",
     "components": {
