@@ -9,8 +9,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
-              "min": 3
+              "max": 2,
+              "min": 1
             }
           },
           "name": "minecraft:emerald_block",
@@ -35,8 +35,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
-              "min": 3
+              "max": 2,
+              "min": 1
             }
           },
           "name": "minecraft:iron_block",

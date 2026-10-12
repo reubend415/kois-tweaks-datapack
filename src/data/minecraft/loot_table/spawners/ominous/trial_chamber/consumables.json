@@ -9,8 +9,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 6,
-              "min": 4
+              "max": 3,
+              "min": 2
             }
           },
           "name": "minecraft:iron_block",
@@ -18,30 +18,65 @@
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2,
-              "min": 1
-            }
-          },
-          "name": "minecraft:golden_carrot",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "modifier": [
             {
               "type": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 1
+              }
             },
             {
-              "type": "minecraft:set_potion",
-              "id": "minecraft:strength"
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "maple:bruschetta",
+                "minecraft:item_name": {
+                  "translate": "item.maple.bruschetta"
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 16,
+                  "can_always_eat": false
+                },
+                "minecraft:consumable": {
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:strength",
+                          "amplifier": 1,
+                          "duration": 3000,
+                          "show_particles": false,
+                          "show_icon": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:max_stack_size": 64,
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "effect.maple.strength_2",
+                    "with": [
+                      "2:30"
+                    ],
+                    "color": "#e65f33",
+                    "italic": false
+                  }
+                ]
+              }
             }
           ],
-          "name": "minecraft:potion"
+          "name": "minecraft:poisonous_potato",
+          "weight": 2
         }
       ],
       "rolls": 1
