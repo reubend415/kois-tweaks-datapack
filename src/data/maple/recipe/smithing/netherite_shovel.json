@@ -2,6 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:diamond_block",
   "base": "minecraft:netherite_shovel",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:netherite_shovel",
     "components": {

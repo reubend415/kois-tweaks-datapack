@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "C": "minecraft:gold_ingot",
+    "S": "minecraft:nautilus_spawn_egg"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "components": {
+      "!minecraft:entity_data": {}
+    },
+    "count": 2,
+    "id": "minecraft:nautilus_spawn_egg"
+  }
+}

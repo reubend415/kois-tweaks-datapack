@@ -2,6 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:gold_ingot",
   "base": "minecraft:golden_spear",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:golden_spear",
     "components": {

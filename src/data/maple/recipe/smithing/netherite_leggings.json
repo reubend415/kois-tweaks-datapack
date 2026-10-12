@@ -2,6 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:diamond_block",
   "base": "minecraft:netherite_leggings",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:netherite_leggings",
     "components": {
