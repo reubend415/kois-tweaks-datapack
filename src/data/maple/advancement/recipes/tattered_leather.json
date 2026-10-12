@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tattered_leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:rabbit_hide",
+                "minecraft:leather"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tattered_leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/tattered_leather_from_leather",
+      "minecraft:bundle",
+      "minecraft:item_frame"
+    ]
+  }
+}
