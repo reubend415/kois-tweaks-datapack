@@ -2,6 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:iron_ingot",
   "base": "minecraft:iron_spear",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:iron_spear",
     "components": {

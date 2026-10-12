@@ -2,6 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:copper_ingot",
   "base": "minecraft:copper_sword",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:copper_sword",
     "components": {

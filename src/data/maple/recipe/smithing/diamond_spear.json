@@ -2,6 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:diamond",
   "base": "minecraft:diamond_spear",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:diamond_spear",
     "components": {

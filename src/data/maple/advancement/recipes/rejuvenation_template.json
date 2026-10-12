@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rejuvenation_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:nautilus_spawn_egg"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_rejuvenation_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/rejuvenation_template"
+    ]
+  }
+}
