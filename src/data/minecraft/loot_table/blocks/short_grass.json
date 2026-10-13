@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"condition": {
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:match_tool",
+										"predicate": {
+											"items": "minecraft:shears"
+										}
+									}
+								]
+							},
+							"name": "minecraft:short_grass"
+						},
+						{
+							"type": "minecraft:item",
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"chance": 0.125,
+										"type": "minecraft:random_chance"
+									},
+									{
+										"type": "minecraft:match_tool",
+										"predicate": {
+											"items": "#minecraft:hoes"
+										}
+									}
+								]
+							},
+							"modifier": {
+								"type": "minecraft:sequence",
+								"functions": [
+									{
+										"enchantment": "minecraft:fortune",
+										"formula": "minecraft:uniform_bonus_count",
+										"type": "minecraft:apply_bonus",
+										"parameters": {
+											"bonusMultiplier": 2
+										}
+									},
+									{
+										"type": "minecraft:explosion_decay"
+									}
+								]
+							},
+							"name": "minecraft:wheat_seeds"
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:short_grass",
+							"condition": {
+								"type": "minecraft:match_tool",
+								"predicate": {
+									"items": "#minecraft:hoes"
+								}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:blocks/short_grass"
+}

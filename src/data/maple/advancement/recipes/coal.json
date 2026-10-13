@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:coal",
+                "minecraft:charcoal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_coal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/black_dye_from_coals"
+    ]
+  }
+}
