@@ -1,16 +1,28 @@
 {
   "criteria": {
-    "requirement": {
+    "item_used": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": {
-          "type": "minecraft:match_tool",
-          "predicate": {
-            "items": "minecraft:allay_spawn_egg",
-            "components": {
-              "minecraft:item_model": "maple:full_allay_vial"
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:allay_spawn_egg",
+                "components": {
+                  "minecraft:item_model": "maple:full_allay_vial"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:match_block",
+                "blocks": "#minecraft:wooden_shelves"
+              }
             }
-          }
+          ]
         }
       }
     }
