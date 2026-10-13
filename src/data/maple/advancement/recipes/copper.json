@@ -34,7 +34,8 @@
       "maple:crafting/oxidized_cut_copper_from_patina",
       "maple:crafting/oxidized_cut_copper_slab_from_patina",
       "maple:crafting/oxidized_cut_copper_stairs_from_patina",
-      "maple:crafting/oxidized_lightning_rod_from_patina"
+      "maple:crafting/oxidized_lightning_rod_from_patina",
+      "maple:crafting/copper_shears"
     ]
   }
 }
