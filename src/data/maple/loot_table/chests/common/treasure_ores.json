@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_copper",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"min": 12,
+							"max": 20
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_gold",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"min": 3,
+							"max": 6
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lapis_lazuli",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"min": 8,
+							"max": 15
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_iron",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"min": 8,
+							"max": 15
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+            "type": "minecraft:set_count",
+						"count": {
+              "type": "minecraft:uniform",
+							"min": 2,
+							"max": 4
+						}
+					},
+          "name": "minecraft:diamond"
+				}
+			]
+		}
+	],
+	"random_sequence": "maple:chests/common/treasure_ores"
+}

@@ -1,0 +1,99 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 14,
+					"modifier": {
+						"type": "minecraft:sequence",
+						"functions": [
+							{
+								"add": false,
+								"damage": {
+									"type": "minecraft:uniform",
+									"max": 0.25,
+									"min": 0
+								},
+								"type": "minecraft:set_damage"
+							},
+							{
+								"type": "minecraft:enchant_with_levels",
+								"levels": 30,
+								"options": "#minecraft:on_random_loot"
+							}
+						]
+					},
+					"name": "minecraft:fishing_rod"
+				},
+        {
+					"type": "minecraft:item",
+					"weight": 7,
+					"modifier": {
+						"type": "minecraft:sequence",
+						"functions": [
+							{
+								"add": false,
+								"damage": {
+									"type": "minecraft:uniform",
+									"max": 0.25,
+									"min": 0
+								},
+								"type": "minecraft:set_damage"
+							},
+							{
+								"type": "minecraft:enchant_with_levels",
+								"levels": 30,
+								"options": "#minecraft:on_random_loot"
+							}
+						]
+					},
+					"name": "minecraft:bow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"modifier": {
+						"type": "minecraft:enchant_with_levels",
+						"levels": 30,
+						"options": "#minecraft:on_random_loot"
+					},
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 24,
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"min": 1,
+							"max": 2
+						}
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"weight": 1,
+					"quality": 3,
+					"modifier": {
+						"type": "minecraft:set_contents",
+						"component": "minecraft:container",
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"value": "maple:chests/fishing/treasure"
+							}
+						]
+					}
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/treasure"
+}
