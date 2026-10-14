@@ -2,7 +2,6 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:copper_ingot",
   "base": "minecraft:copper_spear",
-  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:copper_spear",
     "components": {

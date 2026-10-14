@@ -2,7 +2,6 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:copper_ingot",
   "base": "minecraft:copper_chestplate",
-  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:copper_chestplate",
     "components": {
