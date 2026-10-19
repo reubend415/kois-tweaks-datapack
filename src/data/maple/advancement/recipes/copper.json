@@ -6,7 +6,8 @@
         "items": [
           {
             "items": [
-                "minecraft:copper_ingot"
+                "minecraft:copper_ingot",
+                "minecraft:copper_block"
             ]
           }
         ]
@@ -35,6 +36,7 @@
       "maple:crafting/oxidized_cut_copper_slab_from_patina",
       "maple:crafting/oxidized_cut_copper_stairs_from_patina",
       "maple:crafting/oxidized_lightning_rod_from_patina",
+      "maple:crafting/mass_oxidize_copper_block",
       "maple:crafting/copper_shears"
     ]
   }
