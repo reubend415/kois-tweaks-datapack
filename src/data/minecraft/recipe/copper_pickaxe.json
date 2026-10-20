@@ -1,0 +1,68 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "copper_ingot"
+	},
+	"pattern": [
+		"XXX",
+		" # ",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:tool": {
+				"rules": [
+          {
+						"blocks": "#maple:non_mineable/copper",
+						"speed": 3,
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 6,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"translate": "desc.maple.mining_speed",
+					"with": [
+						"6"
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.attack_damage",
+					"with": [
+						"3"
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.cooldown",
+					"with": [
+						"1.2"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:copper_pickaxe",
+			"minecraft:max_damage": 350,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		},
+		"count": 1,
+		"id": "minecraft:copper_pickaxe"
+	}
+}

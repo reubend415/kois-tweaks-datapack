@@ -14,7 +14,6 @@
   "item.minecraft.shulker_spawn_egg": "Dough",
   "item.minecraft.nautilus_spawn_egg": "Rejuvenation Template",
   "item.minecraft.beetroot_soup": "Milk Bottle",
-  "desc.maple.cleanse": "✚ Cleanse",
   "item.minecraft.zombie_spawn_egg": "Cheese",
   "item.minecraft.beetroot": "Tomatoes",
   "item.minecraft.beetroot_seeds": "Tomato Seeds",
@@ -27,12 +26,22 @@
   "item.maple.warped_pizza": "Warped Pizza",
   "item.maple.kontomire_stew": "Kontomire-Dandelion Stew",
   "item.maple.copper_shears": "Copper Shears",
-
+  "item.maple.copper_dolabra": "Copper Dolabra",
+  "item.maple.copper_mattock": "Copper Mattock",
+  
   "effect.maple.regeneration": " Regen (%s)",
   "effect.maple.strength": " Strength (%s)",
   "effect.maple.strength_2": " Strength II (%s)",
   "effect.maple.invisibility": " Invisibility (%s)",
-
+  
   "filled_map.shipwreck": "Shipwreck Map",
-  "filled_map.trail_ruins": "Trail Ruins Map"
+  "filled_map.trail_ruins": "Trail Ruins Map",
+
+
+
+  "desc.maple.cleanse": "✚ Cleanse",
+  "desc.maple.mining_speed": "\uE036 %s",
+  "desc.maple.attack_damage": "\uE037 %s",
+  "desc.maple.cooldown": "\uE012 %s",
+  "desc.maple.armour": "\uE03D %s"
 }
