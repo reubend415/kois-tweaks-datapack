@@ -54,5 +54,8 @@
   "block.minecraft.magenta_shulker_box": "Magenta Sack",
   "block.minecraft.pink_shulker_box": "Pink Sack",
   
-  "container.shulkerBox": "Sack"
+  "container.shulkerBox": "Sack",
+
+  "music.game.kyoto": "C418 - Kyoto",
+  "music.game.flake": "C418 - Flake"
 }
