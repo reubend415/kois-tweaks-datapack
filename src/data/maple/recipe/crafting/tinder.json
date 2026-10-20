@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		"minecraft:stick",
+		[
+			"minecraft:short_grass",
+			"minecraft:fern",
+			"minecraft:bush"
+		],
+		"minecraft:stick"
+	],
+	"result": {
+		"id": "minecraft:flint_and_steel",
+		"components": {
+			"minecraft:max_damage": 1,
+			"minecraft:item_model": "maple:tinder",
+			"minecraft:item_name": {
+				"translate": "item.maple.tinder"
+			}
+		}
+	}
+}
