@@ -25,7 +25,7 @@
       "maple:crafting/tattered_leather_from_leather",
       "minecraft:bundle",
       "minecraft:item_frame",
-      "maple:crafting/sack"
+      "minecraft:shulker_box"
     ]
   }
 }
