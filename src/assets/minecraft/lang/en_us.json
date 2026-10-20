@@ -34,5 +34,25 @@
   "effect.maple.invisibility": " Invisibility (%s)",
 
   "filled_map.shipwreck": "Shipwreck Map",
-  "filled_map.trail_ruins": "Trail Ruins Map"
+  "filled_map.trail_ruins": "Trail Ruins Map",
+
+  "block.minecraft.shulker_box": "Sack",
+  "block.minecraft.white_shulker_box": "White Sack",
+  "block.minecraft.light_gray_shulker_box": "Light Gray Sack",
+  "block.minecraft.gray_shulker_box": "Gray Sack",
+  "block.minecraft.black_shulker_box": "Black Sack",
+  "block.minecraft.brown_shulker_box": "Brown Sack",
+  "block.minecraft.red_shulker_box": "Red Sack",
+  "block.minecraft.orange_shulker_box": "Orange Sack",
+  "block.minecraft.yellow_shulker_box": "Yellow Sack",
+  "block.minecraft.lime_shulker_box": "Lime Sack",
+  "block.minecraft.green_shulker_box": "Green Sack",
+  "block.minecraft.cyan_shulker_box": "Cyan Sack",
+  "block.minecraft.light_blue_shulker_box": "Light Blue Sack",
+  "block.minecraft.blue_shulker_box": "Blue Sack",
+  "block.minecraft.purple_shulker_box": "Purple Sack",
+  "block.minecraft.magenta_shulker_box": "Magenta Sack",
+  "block.minecraft.pink_shulker_box": "Pink Sack",
+  
+  "container.shulkerBox": "Sack"
 }
