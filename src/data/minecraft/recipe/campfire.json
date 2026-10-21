@@ -9,6 +9,11 @@
     "LL"
   ],
   "result": {
+    "components": {
+      "minecraft:block_state": {
+				"lit": "false"
+			}
+    },
     "id": "minecraft:campfire"
   }
 }

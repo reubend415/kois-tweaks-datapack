@@ -28,7 +28,8 @@
   "item.maple.copper_shears": "Copper Shears",
   "item.maple.copper_dolabra": "Copper Dolabra",
   "item.maple.copper_mattock": "Copper Mattock",
-  
+    "item.maple.tinder": "Tinder",
+
   "effect.maple.regeneration": " Regen (%s)",
   "effect.maple.strength": " Strength (%s)",
   "effect.maple.strength_2": " Strength II (%s)",
@@ -41,5 +42,28 @@
   "desc.maple.mining_speed": "\uE036 %s",
   "desc.maple.attack_damage": "\uE037 %s",
   "desc.maple.cooldown": "\uE012 %s",
-  "desc.maple.armour": "\uE03D %s"
+  "desc.maple.armour": "\uE03D %s",
+
+  "block.minecraft.shulker_box": "Sack",
+  "block.minecraft.white_shulker_box": "White Sack",
+  "block.minecraft.light_gray_shulker_box": "Light Gray Sack",
+  "block.minecraft.gray_shulker_box": "Gray Sack",
+  "block.minecraft.black_shulker_box": "Black Sack",
+  "block.minecraft.brown_shulker_box": "Brown Sack",
+  "block.minecraft.red_shulker_box": "Red Sack",
+  "block.minecraft.orange_shulker_box": "Orange Sack",
+  "block.minecraft.yellow_shulker_box": "Yellow Sack",
+  "block.minecraft.lime_shulker_box": "Lime Sack",
+  "block.minecraft.green_shulker_box": "Green Sack",
+  "block.minecraft.cyan_shulker_box": "Cyan Sack",
+  "block.minecraft.light_blue_shulker_box": "Light Blue Sack",
+  "block.minecraft.blue_shulker_box": "Blue Sack",
+  "block.minecraft.purple_shulker_box": "Purple Sack",
+  "block.minecraft.magenta_shulker_box": "Magenta Sack",
+  "block.minecraft.pink_shulker_box": "Pink Sack",
+  
+  "container.shulkerBox": "Sack",
+
+  "music.game.kyoto": "C418 - Kyoto",
+  "music.game.flake": "C418 - Flake"
 }

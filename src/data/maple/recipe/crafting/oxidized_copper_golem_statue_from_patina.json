@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "oxidized_copper_golem_statue",
+  "group": "oxidized_copper_decor",
   "category": "building",
   "ingredients": [
     "minecraft:copper_golem_statue",

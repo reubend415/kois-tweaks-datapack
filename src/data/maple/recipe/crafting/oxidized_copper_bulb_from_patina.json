@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "oxidized_copper_bulb",
+  "group": "oxidized_copper_blocks",
   "category": "building",
   "ingredients": [
     "minecraft:copper_bulb",

@@ -2,10 +2,24 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:campfire"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "modifier": {
+				"type": "minecraft:set_components",
+				"components": {
+				  "minecraft:block_state": {
+					"lit": "false"
+				  }
+				}
+			  },
+              "name": "minecraft:campfire"
+            }
+          ]
         }
       ],
       "rolls": 1
