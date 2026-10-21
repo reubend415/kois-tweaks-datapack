@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/helmet"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/chestplate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/leggings"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/boots"
+				}
+			]
+		}
+	]
+}

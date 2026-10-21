@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_sword",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:max_damage": 350,
+							"minecraft:enchantments": {
+								"minecraft:looting": 1
+							},
+							"minecraft:lore": [
+								{
+									"translate": "desc.maple.attack_damage",
+									"with": [
+										"4"
+									],
+									"color": "blue",
+									"italic": false
+								},
+								{
+									"translate": "desc.maple.cooldown",
+									"with": [
+										"1.6"
+									],
+									"color": "blue",
+									"italic": false
+								}
+							],
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:enchantment_glint_override": false,
+							"minecraft:item_name": {
+								"translate": "item.minecraft.golden_sword",
+								"color": "white"
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

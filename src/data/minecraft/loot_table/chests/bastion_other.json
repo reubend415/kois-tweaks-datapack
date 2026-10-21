@@ -203,33 +203,24 @@
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:soul_speed"
-            }
-          ],
-          "name": "minecraft:golden_boots"
-        },
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/axe",
+					"weight": 1
+				},
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_axe"
-        },
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/armour",
+					"weight": 1,
+					"modifier": {
+						"type": "minecraft:enchant_randomly",
+						"options": "#minecraft:on_random_loot"
+					}
+				},
+        {
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/axe",
+					"weight": 1
+				},
         {
           "type": "minecraft:item",
           "functions": [
@@ -280,56 +271,6 @@
           ],
           "name": "minecraft:iron_ingot",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_boots"
         },
         {
           "type": "minecraft:item",
