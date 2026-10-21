@@ -47,7 +47,7 @@
 					"with": [
 						"6"
 					],
-					"color": "blue",
+					"color": "dark_green",
 					"italic": false
 				},
 				{
@@ -55,7 +55,7 @@
 					"with": [
 						"0.9"
 					],
-					"color": "blue",
+					"color": "dark_green",
 					"italic": false
 				}
 			],
