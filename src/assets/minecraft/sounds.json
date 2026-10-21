@@ -281,5 +281,22 @@
         "stream": true
       }
     ]
+  },
+  "music.overworld.deep_dark": {
+    "sounds": [
+      {
+        "name": "music/game/ancestry",
+        "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/excuse",
+        "stream": true
+      }
+    ]
   }
 }
