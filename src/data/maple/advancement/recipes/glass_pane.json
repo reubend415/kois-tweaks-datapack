@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:glass_pane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_glass_pane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/invisible_item_frame"
+    ]
+  }
+}
