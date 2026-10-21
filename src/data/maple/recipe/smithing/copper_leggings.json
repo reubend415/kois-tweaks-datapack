@@ -1,11 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:copper_ingot",
+  "template": "minecraft:nautilus_spawn_egg",
   "base": "minecraft:copper_leggings",
   "result": {
     "id": "minecraft:copper_leggings",
     "components": {
-      "minecraft:repair_cost": 0
+      "minecraft:repair_cost": 0,
+      "minecraft:damage": 0
     }
   }
 }

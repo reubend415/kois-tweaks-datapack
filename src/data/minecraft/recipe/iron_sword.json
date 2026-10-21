@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "iron_ingot"
+	},
+	"pattern": [
+		"X",
+		"X",
+		"#"
+	],
+	"result": {
+		"components": {
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:lore": [
+				{
+					"translate": "desc.maple.attack_damage",
+					"with": [
+						"6"
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.cooldown",
+					"with": [
+						"1.6"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 500,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		},
+		"count": 1,
+		"id": "minecraft:iron_sword"
+	}
+}

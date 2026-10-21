@@ -1,11 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
+  "template": "minecraft:nautilus_spawn_egg",
   "addition": "minecraft:copper_ingot",
   "base": "minecraft:copper_pickaxe",
   "result": {
     "id": "minecraft:copper_pickaxe",
     "components": {
-      "minecraft:repair_cost": 0
+      "minecraft:repair_cost": 0,
+      "minecraft:damage": 0
     }
   }
 }

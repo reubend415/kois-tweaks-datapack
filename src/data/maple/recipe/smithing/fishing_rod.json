@@ -1,11 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:stick",
+  "template": "minecraft:nautilus_spawn_egg",
   "base": "minecraft:fishing_rod",
   "result": {
     "id": "minecraft:fishing_rod",
     "components": {
       "minecraft:repair_cost": 0,
+      "minecraft:damage": 0,
       "minecraft:repairable": {
         "items": "minecraft:stick"
       }

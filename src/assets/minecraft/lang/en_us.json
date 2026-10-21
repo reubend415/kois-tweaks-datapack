@@ -28,7 +28,10 @@
   "item.maple.copper_shears": "Copper Shears",
   "item.maple.copper_dolabra": "Copper Dolabra",
   "item.maple.copper_mattock": "Copper Mattock",
-    "item.maple.tinder": "Tinder",
+  "item.maple.tinder": "Tinder",
+  "item.maple.iron_dolabra": "Iron Dolabra",
+  "item.maple.iron_mattock": "Iron Mattock",
+  
 
   "effect.maple.regeneration": " Regen (%s)",
   "effect.maple.strength": " Strength (%s)",
