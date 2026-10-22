@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rejuvenation_template": {
+    "has_repair_template": {
       "conditions": {
         "items": [
           {
@@ -16,12 +16,12 @@
   },
   "requirements": [
     [
-      "has_rejuvenation_template"
+      "has_repair_template"
     ]
   ],
   "rewards": {
     "recipes": [
-      "maple:crafting/rejuvenation_template"
+      "maple:crafting/repair_template"
     ]
   }
 }

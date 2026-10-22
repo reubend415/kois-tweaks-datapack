@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": "minecraft:iron_ingot",
-    "C": "minecraft:gold_block",
+    "#": "minecraft:gold_ingot",
+    "C": "minecraft:iron_block",
     "S": "minecraft:nautilus_spawn_egg"
   },
   "pattern": [
