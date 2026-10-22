@@ -31,6 +31,8 @@
   "item.maple.tinder": "Tinder",
   "item.maple.iron_dolabra": "Iron Dolabra",
   "item.maple.iron_mattock": "Iron Mattock",
+  "item.maple.diamond_mattock": "Diamond Mattock",
+  "item.maple.diamond_dolabra": "Diamond Dolabra",
   
 
   "effect.maple.regeneration": " Regen (%s)",
