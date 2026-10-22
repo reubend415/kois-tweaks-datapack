@@ -6,8 +6,8 @@
 		"X": "minecraft:diamond"
 	},
 	"pattern": [
-		"XXX",
-		"X# ",
+		"XX ",
+		" #X",
 		" # "
 	],
 	"result": {
@@ -15,17 +15,12 @@
 			"minecraft:tool": {
 				"rules": [
 					{
-						"blocks": "#maple:obsidian_based",
-						"speed": 35,
-						"correct_for_drops": true
-					},
-					{
-						"blocks": "#minecraft:mineable/axe",
+						"blocks": "#minecraft:mineable/hoe",
 						"speed": 8,
 						"correct_for_drops": true
 					},
 					{
-						"blocks": "#minecraft:mineable/pickaxe",
+						"blocks": "#minecraft:mineable/shovel",
 						"speed": 8,
 						"correct_for_drops": true
 					}
@@ -34,10 +29,10 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"translate": "item.maple.diamond_dolabra"
+				"translate": "item.maple.diamond_mattock"
 			},
 			"minecraft:max_damage": 2500,
-			"minecraft:item_model": "maple:diamond_dolabra",
+			"minecraft:item_model": "maple:diamond_mattock",
 			"minecraft:lore": [
 				{
 					"translate": "desc.maple.mining_speed",
@@ -50,7 +45,7 @@
 				{
 					"translate": "desc.maple.attack_damage",
 					"with": [
-						"7"
+						"4"
 					],
 					"color": "dark_green",
 					"italic": false
@@ -58,7 +53,7 @@
 				{
 					"translate": "desc.maple.cooldown",
 					"with": [
-						"1"
+						"3"
 					],
 					"color": "dark_green",
 					"italic": false
@@ -73,14 +68,14 @@
 				{
 					"type": "minecraft:attack_damage",
 					"id": "attack_damage",
-					"amount": 6,
+					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
 					"type": "minecraft:attack_speed",
 					"id": "attack_speed",
-					"amount": -3,
+					"amount": -1,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
@@ -90,6 +85,6 @@
 			}
 		},
 		"count": 1,
-		"id": "minecraft:diamond_axe"
+		"id": "minecraft:stone_hoe"
 	}
 }
