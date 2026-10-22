@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/armour"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/tools"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/weapons"
+				}
+			]
+		}
+	]
+}

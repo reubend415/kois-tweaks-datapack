@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:lore": [
+								{
+									"translate": "desc.maple.armour",
+									"with": [
+										"6"
+									],
+									"color": "blue",
+									"italic": false
+								},
+								{
+									"translate": "desc.maple.armour_toughness",
+									"with": [
+										"2"
+									],
+									"color": "blue",
+									"italic": false
+								}
+							],
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:max_damage": 800,
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -4,7 +4,7 @@
     {
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -23,10 +23,10 @@
               "options": "#minecraft:on_random_loot"
             }
           ],
-          "name": "minecraft:diamond_axe"
+          "value": "maple:equipment/diamond/axe"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -41,7 +41,7 @@
               }
             }
           ],
-          "name": "minecraft:diamond_pickaxe"
+          "value": "maple:equipment/diamond/pickaxe"
         },
         {
           "type": "minecraft:item",

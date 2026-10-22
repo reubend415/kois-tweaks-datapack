@@ -90,7 +90,7 @@
           "name": "minecraft:diamond_horse_armor"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "modifier": {
             "type": "minecraft:enchant_with_levels",
             "levels": {
@@ -100,11 +100,11 @@
             },
             "options": "#minecraft:on_random_loot"
           },
-          "name": "minecraft:diamond_sword",
+          "value": "maple:equipment/diamond/weapons",
           "weight": 3
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "modifier": {
             "type": "minecraft:enchant_with_levels",
             "levels": {
@@ -114,11 +114,11 @@
             },
             "options": "#minecraft:on_random_loot"
           },
-          "name": "minecraft:diamond_spear",
+          "value": "maple:equipment/diamond/armour",
           "weight": 3
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "modifier": {
             "type": "minecraft:enchant_with_levels",
             "levels": {
@@ -128,11 +128,11 @@
             },
             "options": "#minecraft:on_random_loot"
           },
-          "name": "minecraft:diamond_boots",
+          "value": "maple:equipment/diamond/pickaxe",
           "weight": 3
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "modifier": {
             "type": "minecraft:enchant_with_levels",
             "levels": {
@@ -142,63 +142,7 @@
             },
             "options": "#minecraft:on_random_loot"
           },
-          "name": "minecraft:diamond_chestplate",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": {
-              "type": "minecraft:uniform",
-              "max": 39,
-              "min": 20
-            },
-            "options": "#minecraft:on_random_loot"
-          },
-          "name": "minecraft:diamond_leggings",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": {
-              "type": "minecraft:uniform",
-              "max": 39,
-              "min": 20
-            },
-            "options": "#minecraft:on_random_loot"
-          },
-          "name": "minecraft:diamond_helmet",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": {
-              "type": "minecraft:uniform",
-              "max": 39,
-              "min": 20
-            },
-            "options": "#minecraft:on_random_loot"
-          },
-          "name": "minecraft:diamond_pickaxe",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": {
-              "type": "minecraft:uniform",
-              "max": 39,
-              "min": 20
-            },
-            "options": "#minecraft:on_random_loot"
-          },
-          "name": "minecraft:diamond_shovel",
+          "value": "maple:equipment/diamond/shovel",
           "weight": 3
         },
         {

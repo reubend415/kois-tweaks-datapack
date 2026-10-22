@@ -46,6 +46,7 @@
   "desc.maple.attack_damage": "\uE037 %s",
   "desc.maple.cooldown": "\uE012 %s",
   "desc.maple.armour": "\uE03D %s",
+  "desc.maple.armour_toughness": "\uE008 %s",
 
   "block.minecraft.shulker_box": "Sack",
   "block.minecraft.white_shulker_box": "White Sack",

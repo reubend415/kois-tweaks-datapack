@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:copper_chestplate",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:lore": [
+								{
+									"translate": "desc.maple.armour",
+									"with": [
+										"4"
+									],
+									"color": "blue",
+									"italic": false
+								}
+							],
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:max_damage": 200,
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

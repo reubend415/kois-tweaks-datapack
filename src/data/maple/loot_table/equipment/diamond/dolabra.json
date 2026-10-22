@@ -1,0 +1,95 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_axe",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:tool": {
+								"rules": [
+									{
+										"blocks": "#maple:obsidian_based",
+										"speed": 35,
+										"correct_for_drops": true
+									},
+									{
+										"blocks": "#minecraft:mineable/axe",
+										"speed": 8,
+										"correct_for_drops": true
+									},
+									{
+										"blocks": "#minecraft:mineable/pickaxe",
+										"speed": 8,
+										"correct_for_drops": true
+									}
+								],
+								"default_mining_speed": 1,
+								"damage_per_block": 1
+							},
+							"minecraft:item_name": {
+								"translate": "item.maple.diamond_dolabra"
+							},
+							"minecraft:max_damage": 2500,
+							"minecraft:item_model": "maple:diamond_dolabra",
+							"minecraft:lore": [
+								{
+									"translate": "desc.maple.mining_speed",
+									"with": [
+										"8"
+									],
+									"color": "blue",
+									"italic": false
+								},
+								{
+									"translate": "desc.maple.attack_damage",
+									"with": [
+										"7"
+									],
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.maple.cooldown",
+									"with": [
+										"1"
+									],
+									"color": "dark_green",
+									"italic": false
+								}
+							],
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:attribute_modifiers": [
+								{
+									"type": "minecraft:attack_damage",
+									"id": "attack_damage",
+									"amount": 6,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"type": "minecraft:attack_speed",
+									"id": "attack_speed",
+									"amount": -3,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							],
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}
