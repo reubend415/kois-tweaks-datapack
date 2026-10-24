@@ -9,13 +9,81 @@
   "result": {
     "id": "minecraft:netherite_shovel",
     "components": {
-      "minecraft:repair_cost": 0,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 15,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
       "minecraft:repairable": {
         "items": [
           "minecraft:diamond_block",
           "minecraft:netherite_scrap"
         ]
       },
+      "minecraft:repair_cost": 0,
+      "minecraft:lore": [
+				{
+					"translate": "desc.maple.mining_speed",
+					"with": [
+						{
+							"text": "15"
+						}
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.attack_damage",
+					"with": [
+						{
+							"text": "6.5"
+						}
+					],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.cooldown",
+					"with": [
+						{
+							"text": "1"
+						}
+					],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.repaired_with",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "block.minecraft.diamond_block",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"translate": "item.minecraft.netherite_scrap",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+      "minecraft:item_name": {
+				"translate": "item.minecraft.netherite_shovel",
+				"color": "gold"
+			},
+      "minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+      "minecraft:max_damage": 5000,
       "minecraft:damage": 0
     }
   }
