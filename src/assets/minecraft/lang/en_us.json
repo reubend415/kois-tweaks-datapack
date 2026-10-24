@@ -1,23 +1,22 @@
 {
-  "item.minecraft.warden_spawn_egg": "Purified Echo Shard",
-  "item.minecraft.enchanted_book": "Soul Bound Book",
-
-  "advancements.nether.craft_enchant.description": "Craft a Soul Bound Book using a Blaze Rod and Purified Echo Shard to bind an enchantment to your tools.",
+  "advancements.nether.craft_enchant.description": "Craft a Soul Bound Book using a Blaze Rod and Purified Echo Shard to bind enchantments to your tools",
   "advancements.nether.craft_enchant.title": "Certified Mage",
-  "advancements.adventure.craft_purified_shard.description": "Craft a Purified Echo Shard from an artifact of the Ancient Cities.",
+  "advancements.adventure.craft_purified_shard.description": "Craft a Purified Echo Shard from an artifact of the Ancient Cities",
   "advancements.adventure.craft_purified_shard.title": "Muffled Echoes Made Clear",
   "advancements.story.smithing_repair.title": "A Band-Aid Solution",
-  "advancements.story.smithing_repair.description": "Rejuvenate a tool's repair cost using a dug up smithing template and a material of the same type as the tool.",
-
+  "advancements.story.smithing_repair.description": "Repair a tool using a dug up smithing template and a material of the same type as the tool",
+  
+  "item.minecraft.warden_spawn_egg": "Purified Echo Shard",
+  "item.minecraft.enchanted_book": "Soul Bound Book",
   "item.minecraft.rabbit_hide": "Tattered Leather",
   "item.minecraft.enderman_spawn_egg": "Flour",
   "item.minecraft.shulker_spawn_egg": "Dough",
-  "item.minecraft.nautilus_spawn_egg": "Rejuvenation Template",
-  "item.minecraft.beetroot_soup": "Milk Bottle",
-  "desc.maple.cleanse": "✚ Cleanse",
+  "item.minecraft.nautilus_spawn_egg": "Repair Template",
   "item.minecraft.zombie_spawn_egg": "Cheese",
+  "item.minecraft.beetroot_soup": "Milk Bottle",
   "item.minecraft.beetroot": "Tomatoes",
   "item.minecraft.beetroot_seeds": "Tomato Seeds",
+
   "item.maple.grilled_tomatoes": "Grilled Tomatoes",
   "item.maple.pickled_tomatoes": "Pickled Tomatoes",
   "item.maple.bruschetta": "Bruschetta",
@@ -27,16 +26,35 @@
   "item.maple.warped_pizza": "Warped Pizza",
   "item.maple.kontomire_stew": "Kontomire-Dandelion Stew",
   "item.maple.copper_shears": "Copper Shears",
+  "item.maple.copper_dolabra": "Copper Dolabra",
+  "item.maple.copper_mattock": "Copper Mattock",
   "item.maple.tinder": "Tinder",
+  "item.maple.iron_dolabra": "Iron Dolabra",
+  "item.maple.iron_mattock": "Iron Mattock",
+  "item.maple.diamond_mattock": "Diamond Mattock",
+  "item.maple.diamond_dolabra": "Diamond Dolabra",
+  "item.maple.netherite_dolabra": "Netherite Dolabra",
+  "item.maple.netherite_mattock": "Netherite Mattock",
+
+  
   "item.maple.invisible_item_frame": "Clear Item Frame",
 
   "effect.maple.regeneration": " Regen (%s)",
   "effect.maple.strength": " Strength (%s)",
   "effect.maple.strength_2": " Strength II (%s)",
   "effect.maple.invisibility": " Invisibility (%s)",
-
+  
   "filled_map.shipwreck": "Shipwreck Map",
   "filled_map.trail_ruins": "Trail Ruins Map",
+
+  "desc.maple.cleanse": "✚ Cleanse",
+  "desc.maple.mining_speed": "\uE036 %s",
+  "desc.maple.attack_damage": "\uE037 %s",
+  "desc.maple.cooldown": "\uE012 %s",
+  "desc.maple.armour": "\uE03D %s",
+  "desc.maple.armour_toughness": "\uE008 %s",
+  "desc.maple.repaired_with": "Repaired with:",
+  "desc.maple.knockback_resistance": "Knockback Resistance: %s",
 
   "block.minecraft.shulker_box": "Sack",
   "block.minecraft.white_shulker_box": "White Sack",

@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "key": {
-    "#": "minecraft:iron_ingot",
-    "C": "minecraft:gold_ingot",
+    "#": "minecraft:gold_ingot",
+    "C": "minecraft:iron_block",
     "S": "minecraft:nautilus_spawn_egg"
   },
   "pattern": [

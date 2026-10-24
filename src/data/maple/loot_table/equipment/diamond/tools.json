@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/pickaxe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/shovel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/hoe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/mattock"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/diamond/dolabra"
+				}
+			]
+		}
+	]
+}

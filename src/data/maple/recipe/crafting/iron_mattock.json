@@ -1,0 +1,79 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "iron_ingot"
+	},
+	"pattern": [
+		"XX ",
+		" #X",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.maple.iron_mattock"
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 6,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 6,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:item_model": "maple:iron_mattock",
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"translate": "desc.maple.mining_speed",
+					"with": [
+						"6"
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.attack_damage",
+					"with": [
+						"4"
+					],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.cooldown",
+					"with": [
+						"3"
+					],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 3,
+					"operation": "add_value"
+				}
+			],
+			"minecraft:max_damage": 500
+		},
+		"count": 1,
+		"id": "minecraft:iron_hoe"
+	}
+}
