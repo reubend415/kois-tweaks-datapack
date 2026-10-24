@@ -37,6 +37,7 @@
   "item.maple.netherite_mattock": "Netherite Mattock",
 
   
+  "item.maple.invisible_item_frame": "Clear Item Frame",
 
   "effect.maple.regeneration": " Regen (%s)",
   "effect.maple.strength": " Strength (%s)",
@@ -76,5 +77,6 @@
   "container.shulkerBox": "Sack",
 
   "music.game.kyoto": "C418 - Kyoto",
-  "music.game.flake": "C418 - Flake"
+  "music.game.flake": "C418 - Flake",
+  "music.game.excuse": "C418 - Excuse"
 }

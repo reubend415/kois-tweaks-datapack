@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "item_frame",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:glass_pane"
+	},
+	"pattern": [
+		" # ",
+		"#X#",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:item_frame",
+				"Invisible": true
+			},
+			"minecraft:item_name": {
+				"translate": "item.maple.invisible_item_frame"
+			},
+			"minecraft:item_model": "maple:invisible_item_frame",
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:item_frame"
+	}
+}
