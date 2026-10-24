@@ -1,6 +1,9 @@
 {
   "type": "minecraft:smithing_transform",
-  "addition": "minecraft:diamond_block",
+  "addition": [
+    "minecraft:diamond_block",
+    "minecraft:netherite_scrap"
+  ],
   "base": "minecraft:netherite_sword",
   "template": "minecraft:nautilus_spawn_egg",
   "result": {
@@ -8,8 +11,12 @@
     "components": {
       "minecraft:repair_cost": 0,
       "minecraft:repairable": {
-        "items": "minecraft:diamond_block"
-      }
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:netherite_scrap"
+        ]
+      },
+      "minecraft:damage": 0
     }
   }
 }

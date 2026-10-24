@@ -33,6 +33,9 @@
   "item.maple.iron_mattock": "Iron Mattock",
   "item.maple.diamond_mattock": "Diamond Mattock",
   "item.maple.diamond_dolabra": "Diamond Dolabra",
+  "item.maple.netherite_dolabra": "Netherite Dolabra",
+  "item.maple.netherite_mattock": "Netherite Mattock",
+
   
 
   "effect.maple.regeneration": " Regen (%s)",
@@ -49,6 +52,8 @@
   "desc.maple.cooldown": "\uE012 %s",
   "desc.maple.armour": "\uE03D %s",
   "desc.maple.armour_toughness": "\uE008 %s",
+  "desc.maple.repaired_with": "Repaired with:",
+  "desc.maple.knockback_resistance": "Knockback Resistance: %s",
 
   "block.minecraft.shulker_box": "Sack",
   "block.minecraft.white_shulker_box": "White Sack",
