@@ -312,6 +312,12 @@
 			"conditions": {
 				"recipes": "maple:food/crafting/cheese"
 			}
+		},
+		"made_mass_oxidize_copper_block": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:crafting/mass_oxidize_copper_block"
+			}
 		}
 	},
 	"requirements": [
@@ -367,7 +373,8 @@
 			"made_oxidized_copper_bulb",
 			"made_oxidized_lightning_rod",
 			"made_dough_from_water",
-			"made_cheese_from_milk"
+			"made_cheese_from_milk",
+			"made_mass_oxidize_copper_block"
 		]
 	],
 	"rewards": {

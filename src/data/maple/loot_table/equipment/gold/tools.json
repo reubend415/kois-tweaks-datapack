@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/pickaxe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/shovel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/gold/hoe"
+				}
+			]
+		}
+	]
+}

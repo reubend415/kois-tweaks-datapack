@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "clone_moss",
+  "pattern": [
+    "XZX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": [
+      "minecraft:stone",
+      "minecraft:dirt",
+      "minecraft:coarse_dirt",
+      "minecraft:rooted_dirt",
+      "minecraft:mud",
+      "minecraft:podzol",
+      "minecraft:mycelium",
+      "minecraft:pale_moss_block",
+      "minecraft:andesite",
+      "minecraft:granite",
+      "minecraft:tuff",
+      "minecraft:diorite",
+      "minecraft:deepslate",
+      "minecraft:muddy_mangrove_roots",
+      "minecraft:gravel",
+      "minecraft:sand"
+    ],
+    "Y": "minecraft:moss_block",
+    "Z": "minecraft:bone_meal"
+  },
+  "result": {
+    "id": "minecraft:moss_block",
+    "count": 8
+  }
+}

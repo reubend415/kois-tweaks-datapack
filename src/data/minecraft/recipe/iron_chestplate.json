@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:iron_ingot"
+	},
+	"pattern": [
+		"X X",
+		"XXX",
+		"XXX"
+	],
+	"result": {
+		"components": {
+			"minecraft:lore": [
+				{
+					"translate": "desc.maple.armour",
+					"with": [
+						"6"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:max_damage": 350
+		},
+		"count": 1,
+		"id": "minecraft:iron_chestplate"
+	}
+}

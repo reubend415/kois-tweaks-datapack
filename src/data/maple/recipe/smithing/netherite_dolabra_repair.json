@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": [
+    "minecraft:diamond_block",
+    "minecraft:netherite_scrap"
+  ],
+  "base": "minecraft:netherite_axe",
+  "template": "minecraft:nautilus_spawn_egg",
+  "result": {
+    "id": "minecraft:netherite_axe",
+    "components": {
+      "minecraft:repairable": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:netherite_scrap"
+        ]
+      },
+      "minecraft:repair_cost": 0,
+      "minecraft:damage": 0
+    }
+  }
+}

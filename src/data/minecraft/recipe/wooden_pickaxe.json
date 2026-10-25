@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:wooden_tool_materials"
+	},
+	"pattern": [
+		"XXX",
+		" # ",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#maple:non_mineable/wood",
+						"speed": 3,
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 3,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"translate": "desc.maple.mining_speed",
+					"with": [
+						"3"
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.attack_damage",
+					"with": [
+						"2"
+					],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.cooldown",
+					"with": [
+						"1.2"
+					],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 200,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		},
+		"count": 1,
+		"id": "minecraft:wooden_pickaxe"
+	}
+}

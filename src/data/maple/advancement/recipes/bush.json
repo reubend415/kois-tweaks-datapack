@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bush": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:bush"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_bush"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/clone_bush",
+      "maple:campfire/dead_bush_campfire"
+    ]
+  }
+}

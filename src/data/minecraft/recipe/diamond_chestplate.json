@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:diamond"
+	},
+	"pattern": [
+		"X X",
+		"XXX",
+		"XXX"
+	],
+	"result": {
+		"components": {
+			"minecraft:lore": [
+				{
+					"translate": "desc.maple.armour",
+					"with": [
+						"8"
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.armour_toughness",
+					"with": [
+						"2"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:max_damage": 800,
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:diamond_chestplate"
+	}
+}

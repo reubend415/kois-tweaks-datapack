@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:raw_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/green_dye_from_patina"
+    ]
+  }
+}

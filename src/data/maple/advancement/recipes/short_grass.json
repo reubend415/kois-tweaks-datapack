@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_short_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:short_grass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_short_grass"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:campfire/short_dry_grass_campfire",
+      "maple:smoking/short_dry_grass",
+      "minecraft:packed_mud",
+      "maple:crafting/short_dry_grass_from_tall_dry_grass",
+      "maple:crafting/tall_dry_grass_from_short_dry_grass"
+    ]
+  }
+}

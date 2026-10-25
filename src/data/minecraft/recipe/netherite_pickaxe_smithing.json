@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_pickaxe",
+  "result": {
+    "id": "minecraft:netherite_pickaxe",
+    "components": {
+      "minecraft:max_damage": 5000,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "minecraft:deepslate",
+            "speed": 42,
+            "correct_for_drops": true
+          },
+          {
+						"blocks": "#maple:obsidian_based",
+						"speed": 55,
+						"correct_for_drops": true
+					},
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 15,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+				{
+					"translate": "desc.maple.mining_speed",
+					"with": [
+						{
+							"text": "15"
+						}
+					],
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.attack_damage",
+					"with": [
+						{
+							"text": "6"
+						}
+					],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.cooldown",
+					"with": [
+						{
+							"text": "1.2"
+						}
+					],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.maple.repaired_with",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "block.minecraft.diamond_block",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"translate": "item.minecraft.netherite_scrap",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond_block",
+					"minecraft:netherite_scrap"
+				]
+			},
+			"minecraft:item_name": {
+				"translate": "item.minecraft.netherite_pickaxe",
+				"color": "gold"
+			},
+      "minecraft:repair_cost": 0
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

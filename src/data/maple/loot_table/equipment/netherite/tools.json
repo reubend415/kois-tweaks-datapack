@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/netherite/pickaxe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/netherite/shovel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/netherite/hoe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/netherite/mattock"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "maple:equipment/netherite/dolabra"
+				}
+			]
+		}
+	]
+}

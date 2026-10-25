@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:leather",
+  "base": "minecraft:elytra",
+  "template": "minecraft:nautilus_spawn_egg",
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:repair_cost": 0,
+      "minecraft:damage": 0
+    }
+  }
+}

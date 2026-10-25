@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:beds",
+    "#minecraft:candles",
+    "minecraft:cactus",
+    "minecraft:honeycomb_block",
+    "#minecraft:leaves",
+    "minecraft:nether_wart_block",
+    "minecraft:warped_wart_block"
+  ]
+}

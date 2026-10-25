@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:prismarine_shard",
+  "base": "minecraft:trident",
+  "template": "minecraft:nautilus_spawn_egg",
+  "result": {
+    "id": "minecraft:trident",
+    "components": {
+      "minecraft:repair_cost": 0,
+      "minecraft:repairable": {
+        "items": "minecraft:prismarine_shard"
+      }
+    }
+  }
+}

@@ -2,10 +2,12 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:iron_ingot",
   "base": "minecraft:iron_helmet",
+  "template": "minecraft:nautilus_spawn_egg",
   "result": {
     "id": "minecraft:iron_helmet",
     "components": {
-      "minecraft:repair_cost": 0
+      "minecraft:repair_cost": 0,
+      "minecraft:damage": 0
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "C": "minecraft:iron_block",
+    "S": "minecraft:nautilus_spawn_egg"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "components": {
+      "!minecraft:entity_data": {},
+      "minecraft:rarity": "uncommon"
+    },
+    "count": 2,
+    "id": "minecraft:nautilus_spawn_egg"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:brick",
+                "minecraft:bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_brick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:crafting/brick_from_bricks"
+    ]
+  }
+}

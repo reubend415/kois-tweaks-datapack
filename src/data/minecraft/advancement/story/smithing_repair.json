@@ -43,7 +43,17 @@
             "maple:smithing/iron_pickaxe",
             "maple:smithing/iron_shovel",
             "maple:smithing/iron_spear",
-            "maple:smithing/iron_sword"
+            "maple:smithing/iron_sword",
+            "maple:smithing/netherite_axe",
+            "maple:smithing/netherite_boots",
+            "maple:smithing/netherite_chestplate",
+            "maple:smithing/netherite_helmet",
+            "maple:smithing/netherite_hoe",
+            "maple:smithing/netherite_leggings",
+            "maple:smithing/netherite_pickaxe",
+            "maple:smithing/netherite_shovel",
+            "maple:smithing/netherite_spear",
+            "maple:smithing/netherite_sword"
         ]
       },
       "trigger": "minecraft:recipe_crafted"
@@ -54,7 +64,7 @@
       "translate": "advancements.story.smithing_repair.description"
     },
     "icon": {
-      "id": "minecraft:smithing_table"
+      "id": "minecraft:nautilus_spawn_egg"
     },
     "title": {
       "translate": "advancements.story.smithing_repair.title"
