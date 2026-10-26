@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_melon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:melon_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_melon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:food/smoking/grilled_melon",
+      "maple:food/campfire/grilled_melon",
+      "maple:food/crafting/rind_jam",
+      "maple:food/crafting/spiced_melon"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:smoking",
+	"category": "food",
+	"cookingtime": 200,
+	"experience": 0.35,
+	"ingredient": "minecraft:pumpkin",
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\uE00D\uE00D\uE03F",
+					"color": "green",
+					"italic": false
+				},
+				{
+					"translate": "effect.maple.resistance",
+					"with": [
+						"0:10"
+					],
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:resistance",
+								"duration": 200,
+								"show_particles": false,
+								"show_icon": true
+							}
+						],
+						"probability": 1
+					}
+				]
+			},
+            "minecraft:item_model": "maple:baked_pumpkin",
+            "minecraft:item_name": {
+              "translate": "item.maple.baked_pumpkin"
+            },
+			"minecraft:food": {
+				"nutrition": 5,
+				"saturation": 10,
+				"can_always_eat": false
+			}
+		}
+	}
+}

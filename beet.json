@@ -39,6 +39,10 @@
                 {
                     "namespace": "minecraft",
                     "path": "advancement/recipes/combat/stone*"
+                },
+                {
+                    "namespace": "minecraft",
+                    "path": "advancement/recipes/food/beetroot_soup"
                 }
             ]
         }
