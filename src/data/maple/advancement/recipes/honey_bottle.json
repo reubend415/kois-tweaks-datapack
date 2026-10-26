@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_honey_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_honey_bottle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maple:food/smoking/honey_ginger_tea",
+      "maple:food/campfire/honey_ginger_tea",
+      "maple:food/brewing/mead",
+      "maple:food/crafting/honied_french_toast"
+    ]
+  }
+}

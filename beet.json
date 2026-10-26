@@ -53,6 +53,7 @@
         "min_format": [97, 1],
         "max_format": [97, 1]
     },
+    "require": ["beet.contrib.unknown_files"],
 
     "output": "build"
 }

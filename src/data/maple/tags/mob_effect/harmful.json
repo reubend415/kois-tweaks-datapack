@@ -1,0 +1,18 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:bad_omen",
+		"minecraft:blindness",
+		"minecraft:darkness",
+		"minecraft:infested",
+		"minecraft:mining_fatigue",
+		"minecraft:nausea",
+		"minecraft:oozing",
+		"minecraft:poison",
+		"minecraft:slowness",
+		"minecraft:weakness",
+		"minecraft:weaving",
+		"minecraft:wither",
+		"minecraft:hunger"
+	]
+}
