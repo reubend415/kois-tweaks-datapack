@@ -22,6 +22,7 @@
   "rewards": {
     "recipes": [
       "maple:blasting/glass",
+      "maple:blasting/smooth_sandstone",
       "maple:crafting/black_concrete",
       "maple:crafting/blue_concrete",
       "maple:crafting/brown_concrete",

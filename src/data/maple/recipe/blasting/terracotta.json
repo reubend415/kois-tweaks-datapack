@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
-  "category": "misc",
+  "category": "blocks",
+  "experience": 0.3,
   "ingredient": "minecraft:clay",
   "result": {
     "id": "minecraft:terracotta",
