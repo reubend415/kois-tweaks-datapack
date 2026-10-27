@@ -318,6 +318,18 @@
 			"conditions": {
 				"recipes": "maple:crafting/mass_oxidize_copper_block"
 			}
+		},
+		"made_pumpkin_soup": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:food/crafting/pumpkin_soup"
+			}
+		},
+		"made_honied_french_toast": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "maple:food/crafting/honied_french_toast"
+			}
 		}
 	},
 	"requirements": [
@@ -374,7 +386,9 @@
 			"made_oxidized_lightning_rod",
 			"made_dough_from_water",
 			"made_cheese_from_milk",
-			"made_mass_oxidize_copper_block"
+			"made_mass_oxidize_copper_block",
+			"made_pumpkin_soup",
+			"made_honied_french_toast"
 		]
 	],
 	"rewards": {
