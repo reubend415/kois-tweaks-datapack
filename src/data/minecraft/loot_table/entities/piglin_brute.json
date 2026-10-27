@@ -6,26 +6,29 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_scrap"
+          "name": "minecraft:netherite_scrap",
+          "modifier": [
+            {
+              "type": "minecraft:apply_bonus",
+              "enchantment": "minecraft:looting",
+              "formula": "minecraft:uniform_bonus_count",
+              "parameters": {
+                "bonusMultiplier": 1
+              }
+            },
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ],
       "condition": {
-        "type": "minecraft:all_of",
-        "terms": [
-          {
-            "type": "minecraft:killed_by_player"
-          },
-          {
-            "type": "minecraft:random_chance_with_enchanted_bonus",
-            "unenchanted_chance": 0.3,
-            "enchanted_chance": {
-              "type": "minecraft:linear",
-              "base": 0.4,
-              "per_level_above_first": 0.05
-            },
-            "enchantment": "minecraft:looting"
-          }
-        ]
+        "type": "minecraft:killed_by_player"
       }
     }
   ],
