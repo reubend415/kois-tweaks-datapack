@@ -9,7 +9,8 @@
       "minecraft:repair_cost": 0,
       "minecraft:repairable": {
         "items": "minecraft:prismarine_shard"
-      }
+      },
+      "minecraft:damage": 0
     }
   }
 }
