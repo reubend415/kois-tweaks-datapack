@@ -8,7 +8,7 @@
 					"type": "minecraft:item",
 					"modifier": {
 						"add": false,
-						"count": 3,
+						"count": 9,
 						"type": "minecraft:set_count"
 					},
 					"name": "minecraft:honeycomb"
